@@ -1,0 +1,19 @@
+1. Make a header - 
+    search bar
+    login
+    signup
+    courses offered
+    contact us!
+2. Make a footer
+    Terms 
+    Privacy Policy
+    Help
+    Support
+    About us
+    contact us
+3. Course pages 
+    Reference books + study materials 
+    links of recorded sessions
+    audio video files 
+    categorise based on duration, number of hours => checkboxes
+    On clicking the video duration => recorded session should be displayed
