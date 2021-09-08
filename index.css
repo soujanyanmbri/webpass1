@@ -12,6 +12,8 @@ footer{
   bottom: 0;
   left: 0;
   background: #111;
+  opacity: 0;
+  transition: 1s;
 }
 footer .content{
   max-width: 1350px;
@@ -21,6 +23,11 @@ footer .content{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+footer:hover {
+  opacity: 1;
+}
+
 footer .content p,a{
   color: #fff;
 }
@@ -140,3 +147,4 @@ footer a:hover{
     padding-left: 0;
   }
 }
+
