@@ -31,36 +31,60 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.contact {
+    width: 70%;
+    height: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 5px 2px black;
+  }
 .contact .row form{
     flex:1 1 50rem;
     padding:2rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 3rem;
     align-items: flex-start;
 }
 
 .contact .row form .box{
-    height:5rem;
+    height:4rem;
     width:49%;
-    border:.1rem solid #eee;
+    border: .2rem solid slategray;
     padding:0 1rem;
+    border-radius: 6px;
     margin:1rem 0;
-    font-size: 1.7rem;
+    font-size: 1rem;
     background:none;
     text-transform: none;
 }
 
 .contact .row form .address{
-    height:15rem;
+    height: 6rem;
     padding:1rem;
     resize: none;
     width:100%;
 }
-
-.contact .row form .btn:hover{
-    background:#fff;
+.button{
+    width: 30%;
+    padding: 7px;
+    border: 0.2rem solid black !important;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: darksalmon !important;
+    cursor: pointer;
+    outline: none;
+    margin-left: 35%;
+  }
+.contact .row form .button:hover{
+    background:#fff !important;
     color:#333;
 }
