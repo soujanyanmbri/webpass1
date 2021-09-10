@@ -12,8 +12,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-
-    <title>Java Courses</title>
+    <script src="../../JS/course.js"> </script>
+    <title>Python Courses</title>
   </head>
   <body style="background-color: pink;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -54,32 +54,48 @@
         
       </div>
     </nav>
+    
+    <h1 class="border-bottom pb-3 mb-4" style="padding: 20px;">Python Courses</h1>
 
-    <h1 class="border-bottom pb-3 mb-4">Java Courses</h1>
+    <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Filter according to length
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" onclick="filterSelection('all')" href="#" >all</a>
+        <a class="dropdown-item" onclick="filterSelection('small')" href="#">Small</a>
+        <a class="dropdown-item" onclick="filterSelection('medium')" href="#">Medium</a>
+        <a class="dropdown-item" onclick="filterSelection('long')" href="#">Long</a>
+    
+      </div>
+    </div>
+
+
     <div class="container filter small">
       <h1>Short Courses (1-5 hours)</h1>
-      <p style="font-size: 150%;">Take your first step towards mastering Java!</p>
+      <p style="font-size: 150%;">Take your first step towards mastering Python!</p>
       <div class="box-container">
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/eIrMbAQSU34">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/rfscVS0vtbw">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/eIrMbAQSU34" target="popup"> Java Tutorial for Beginners [2020]</a></h2>
-          <p style="word-wrap: inherit;">Learn Java, the language behind millions of apps and websites.</p>
+          <h2><a href="https://www.youtube.com/embed/rfscVS0vtbw" target="popup"> Learn Python - Full Course for Beginners</a></h2>
+          <p style="word-wrap: inherit;">This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python programmer in no time!</p>
         </div>
 
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/GoXwIVyNvX0">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/hl-Y3tLMkbY">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/GoXwIVyNvX0" target="popup"> Intro to Java Programming</a></h2>
-          <p style="word-wrap: inherit;"> Learn how to program in Java in this full tutorial course. This is a complete Java course meant for absolute beginners. No prior programming experience is required.</p>
+          <h2><a href="https://www.youtube.com/embed/hl-Y3tLMkbY" target="popup"> Python Programming - Full Course for Beginners to Experts</a></h2>
+          <p style="word-wrap: inherit;"> This Python Programming course covers everything you need to about Python programming. You will Learn about python programming from the very basics to the advanced level.</p>
         </div>
 
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/Yv_4RXyLjL8">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/t8pPdKYpowI">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/Yv_4RXyLjL8" target="popup"> Java Tutorial - For Beginners
+          <h2><a href="https://www.youtube.com/embed/t8pPdKYpowI" target="popup"> Python Tutorial for Beginners
           </a></h2>
-          <p style="word-wrap: inherit;"> This java tutorial for beginners will teach you the java programming language. It will start by going over fundamentals java programming concepts and slowly transition into more advanced topics</p>
+          <p style="word-wrap: inherit;"> In this complete Python course you will learn everything you need to get started with Python. By the end of this course, you will have a good understanding of the concepts and hands-on experience with several demo projects you can follow along.</p>
         
         </div>
       </div>
@@ -88,51 +104,51 @@
       <h1>Medium Courses (5-10 hours)</h1>
       <p style="font-size: 150%;">Transition from beginner to master in a day!</p>
       <div class="box-container">
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/8cm1x4bC6104">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/_uQrJ0TkZlc">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/8cm1x4bC610" target="popup"> Java Tutorial for Beginners | Full Course</a></h2>
-          <p style="word-wrap: inherit;">Learn Java, the language behind millions of apps and websites, with tons of hands-on experience!</p>
+          <h2><a href="https://www.youtube.com/embed/_uQrJ0TkZlc" target="popup"> Python for Beginners [Full Course]</a></h2>
+          <p style="word-wrap: inherit;">Python tutorial - Python for beginners - Go from Zero to Hero with Python (includes machine learning & web development project).</p>
         </div>
 
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/hBh_CC5y8-s">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/HGOBQPFzWKo">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/hBh_CC5y8-s" target="popup"> Java Online Training | Edureka</a></h2>
-          <p style="word-wrap: inherit;">This Edureka Java Full Course will help you in understanding the various fundamentals of Java in detail with examples. </p>
+          <h2><a href="https://www.youtube.com/embed/HGOBQPFzWKo" target="popup"> Intermediate Python Programming Course</a></h2>
+          <p style="word-wrap: inherit;">Take your Python skills to the next level with this intermediate Python course. </p>
         </div>
 
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/grEKMHGYyns">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/PJlAnR3asGQ">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/grEKMHGYyns" target="popup"> Learn Java 8 - Full Tutorial for Beginners</a></h2>
-          <p style="word-wrap: inherit;">Learn Java 8 and object oriented programming with this complete Java course for beginners.</p>
+          <h2><a href="https://www.youtube.com/embed/PJlAnR3asGQ" target="popup"> Complete Python Course - Beginner to Advanced</a></h2>
+          <p style="word-wrap: inherit;">This complete Python programming course will give you clear explanation of each Python programming. </p>
         </div>
       </div>
     </div>    
     <div class="container filter long">
       <h1>Long Courses (>10 hours)</h1>
-      <p style="font-size: 150%;">Become a Java Professional!</p>
+      <p style="font-size: 150%;">Become a Professional!</p>
       <div class="box-container">
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/2qr7gHNErIk">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/WGJJIrtnfpk">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/2qr7gHNErIk" target="popup"> Learn Java Programming | Simplilearn</a></h2>
-          <p style="word-wrap: inherit;">Java Programming for Beginners will help you with the complete fundamentals of Java Programming along with real-time practical examples for a better learning experience.</p>
+          <h2><a href="https://www.youtube.com/embed/WGJJIrtnfpk" target="popup"> Python Tutorial For Beginners | Edureka</a></h2>
+          <p style="word-wrap: inherit;">This Edureka video on Python Full Course will help you learn the Python programming language and its core concepts with examples from scratch.</p>
         </div>
 
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/xk4_1vDrzzo">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/8DvywoWv6fI">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/xk4_1vDrzzo" target="popup"> Java Full Course</a></h2>
-          <p style="word-wrap: inherit;">Learn the core Java skills needed to apply for Java developer positions in just 12 hours.</p>
+          <h2><a href="https://www.youtube.com/embed/8DvywoWv6fI" target="popup"> Python for Everybody - Full University Python Course</a></h2>
+          <p style="word-wrap: inherit;">This Python 3 tutorial course aims to teach everyone the basics of programming computers using Python.</p>
         </div>
 
-        <div class="box">
-          <iframe src="https://www.youtube.com/embed/ZFnRvpxpnOc">
+        <div class="box boxx">
+          <iframe src="https://www.youtube.com/embed/XKHEtdqhLK8">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/ZFnRvpxpnOc" target="popup">Core Java Tutorial</a></h2>
-          <p style="word-wrap: inherit;">Learn Core Java with lots of hands-on practice in 15 hours.</p>
+          <h2><a href="https://www.youtube.com/embed/XKHEtdqhLK8" target="popup">Python Full Course </a></h2>
+          <p style="word-wrap: inherit;">This Python Programming course covers everything you need to about Python programming. You will Learn about python programming from the very basics to the advanced level.</p>
         </div>
       </div>
     </div>    
