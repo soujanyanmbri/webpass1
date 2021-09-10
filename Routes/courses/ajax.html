@@ -12,10 +12,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-
+    <script src="../../JS/course.js"> </script>
     <title>Java Courses</title>
   </head>
-  <body style="background-color: pink;">
+  <body style="background-color: pink;" >
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">Logo here</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +54,24 @@
         
       </div>
     </nav>
-
+    
     <h1 class="border-bottom pb-3 mb-4">Java Courses</h1>
+
+    <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Filter according to length
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" onclick="filterSelection('all')" href="#" >All</a>
+        <a class="dropdown-item" onclick="filterSelection('small')" href="#">Small</a>
+        <a class="dropdown-item" onclick="filterSelection('medium')" href="#">Medium</a>
+        <a class="dropdown-item" onclick="filterSelection('long')" href="#">Long</a>
+    
+      </div>
+    </div>
+
+
     <div class="container filter small">
       <h1>Short Courses (1-5 hours)</h1>
       <p style="font-size: 150%;">Take your first step towards mastering Java!</p>
