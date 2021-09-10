@@ -12,7 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-
+    <script src="../JS/login.js"> </script> 
     <title>Hello, world!</title>
   </head>
   <body style="background-color: salmon;">
@@ -54,7 +54,20 @@
         
       </div>
     </nav>
-
+    <div id="main-holder">
+      <h1 id="login-header">Login</h1>
+      
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+      
+      <form id="login-form" onsubmit="checkLogin()">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+        <input type="submit" value="Login" id="login-form-submit" >
+      </form>
+    
+    </div>
     
     <footer>
       <div class="content">
@@ -89,3 +102,25 @@
   
     </body>
 </html>
+
+<script>
+const loginErrorMsg = document.getElementById("login-error-msg");
+function checkLogin() {
+  
+    username = document.getElementById("login-form").username.value;
+    password = document.getElementById("login-form").password.value;
+    if (username === "user" && password === "web_dev") {
+        alert("You have successfully logged in.");
+        loginErrorMsg.style.opacity = 0;
+        location.reload();
+    } else {
+        document.getElementById("login-error-msg").style.opacity = 1;
+    }
+    document.getElementById("login-form").username.value = null;
+    document.getElementById("login-form").password.value = null;
+}
+
+$("#login-form").submit(function(e) {
+    e.preventDefault();
+});
+</script>
