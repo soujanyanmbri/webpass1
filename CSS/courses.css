@@ -13,7 +13,8 @@
     height: inherit;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
-    background: white;
+    border: 2px solid black;
+    background:  #ffe6e6;
     text-align: center;
     padding:40px 30px;
 }
