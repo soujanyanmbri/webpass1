@@ -10,10 +10,11 @@ footer{
   width: 100%;
   position: fixed;
   bottom: 0;
+  max-height: 70px;
   left: 0;
   background: #111;
-  opacity: 0;
-  transition: 1s;
+  transition: max-height 0.15s ease-out;
+  
 }
 footer .content{
   max-width: 1350px;
@@ -25,7 +26,8 @@ footer .content{
 }
 
 footer:hover {
-  opacity: 1;
+  max-height: 500px !important; 
+  transition: max-height 0.25s ease-in;
 }
 
 footer .content p,a{
