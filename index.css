@@ -10,7 +10,7 @@ footer{
   width: 100%;
   position: fixed;
   bottom: 0;
-  max-height: 70px;
+  max-height: 60px;
   left: 0;
   background: #111;
   transition: max-height 0.15s ease-out;
