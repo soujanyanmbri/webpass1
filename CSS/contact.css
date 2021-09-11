@@ -88,3 +88,26 @@
     background:#fff !important;
     color:#333;
 }
+
+.content{
+     flex:1 1 40rem;
+     margin-bottom: 50px;
+}
+
+.content h3 {
+    padding: 20px;
+}
+.content p {
+    padding-left: 60px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.content ul{
+    padding-left: 90px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+}
