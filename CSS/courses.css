@@ -18,3 +18,15 @@
     padding:40px 30px;
 }
 
+.filter{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.btn-secondary {
+    background-color: darkblue !important ;
+    margin-left: 310px;
+} 
