@@ -7,9 +7,27 @@
   text-decoration: none;
 }
 body{
-  background-color:  #d1d1e0 !important;
-  
+  background-color:  #d1d1e0 !important; 
 }
+.navbar{
+  background-color: black !important;
+}
+body {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
 footer{
   width: 100%;
   position: fixed;
