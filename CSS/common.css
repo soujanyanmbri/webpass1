@@ -5,3 +5,9 @@ footer {
 .footer-filler {
     height: 24vh;
 }
+
+.logo {
+    height: calc(max(4vh, 4vw));
+    width: auto;
+    object-fit: cover;
+}
