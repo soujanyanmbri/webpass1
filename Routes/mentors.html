@@ -4,8 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../CSS/login.css">
-    <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -13,10 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="../CSS/common.css">
-    <script src="../JS/login.js"> </script> 
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../CSS/mentors.css">
+    
+    <title>Courses</title>
   </head>
-  <body style="background-color: salmon;">
+  <body style="background-color: pink;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">
         <img src="../images/book.jpg" style="width: 40px; height:40px" class="logo">
@@ -36,6 +36,7 @@
           <li class="nav-item">
             <a class="nav-link" href="contactus.html">Contact Us</a>
           </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="coursespage.html">Courses offered</a>
           </li>
@@ -56,28 +57,43 @@
           <input class="form-control mr-sm-2" type="search" placeholder="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-        
-        
       </div>
     </nav>
 
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
-    </div>
-    <div id="main-holder">
-      <h1 id="login-header">Login</h1>
+    <div class="card-container">
+      <div class="card border border-dark rounded">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/proxy/ccCADT1qjKxjneQ1rhY1cQlIi2-vHZjIxczC4pC5Dwfa9wE7ZsccKWtzaMH_RF679sg1JKzvBv-G-xx2S3K4UGxk_Cl1jF4yULwPIMHwn-9HEbz2Hv6Wy8W3kcTCQoPcRQsymricdey6kSv2M-dU-8ssiKrx0KgDPKHLjOJjHKhNu6JNyOw=w1200-h630-p-k-no-nu" alt="Card image" style="height: 70%;">
+        <div class="card-body">
+          <h4 class="card-title"> Ajay P Sakthikumar</h4>
+          <p> </p>
+          <p class="card-text">Developer and Mentor</p>
+          <p> </p>
+          <a href="contactus.html" class="btn btn-primary">Contact Us</a>
+          
+        </div>
+      </div>
+      <div class="card border border-dark rounded">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/proxy/ccCADT1qjKxjneQ1rhY1cQlIi2-vHZjIxczC4pC5Dwfa9wE7ZsccKWtzaMH_RF679sg1JKzvBv-G-xx2S3K4UGxk_Cl1jF4yULwPIMHwn-9HEbz2Hv6Wy8W3kcTCQoPcRQsymricdey6kSv2M-dU-8ssiKrx0KgDPKHLjOJjHKhNu6JNyOw=w1200-h630-p-k-no-nu" alt="Card image" style="height: 70%;">
+        <div class="card-body">
+          <h4 class="card-title">Sreelakshmi</h4>
+          <p> </p>
+          <p class="card-text">Developer and Mentor</p>
+          <p> </p>
+          <a href="contactus.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+      <div class="card border border-dark rounded">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/proxy/ccCADT1qjKxjneQ1rhY1cQlIi2-vHZjIxczC4pC5Dwfa9wE7ZsccKWtzaMH_RF679sg1JKzvBv-G-xx2S3K4UGxk_Cl1jF4yULwPIMHwn-9HEbz2Hv6Wy8W3kcTCQoPcRQsymricdey6kSv2M-dU-8ssiKrx0KgDPKHLjOJjHKhNu6JNyOw=w1200-h630-p-k-no-nu" alt="Card image" style="height: 70%;">
+        <div class="card-body">
+          <h4 class="card-title">Soujanya</h4>
+          <p> </p>
+          <p class="card-text">Developer and Mentor</p>
+          <p> </p>
+          <a href="contactus.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
       
-      
-      
-      <form id="login-form" onsubmit="checkLogin()">
-        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-        <input type="submit" value="Login" id="login-form-submit" >
-      </form>
-       <a href = "signup.html"> Don't have an account? </a>
-       <a href = "signup.html"> Forgot Password? </a>
-    </div>
-    
+
     <div class="footer-filler"></div>
     <footer>
       <div class="content">
@@ -106,32 +122,9 @@
             <input type="submit" name="" value="Send">
             
           </form>
-          
         </div>
       </div>
      
   
     </body>
 </html>
-
-<script>
-const loginErrorMsg = document.getElementById("login-error-msg");
-function checkLogin() {
-  
-    username = document.getElementById("login-form").username.value;
-    password = document.getElementById("login-form").password.value;
-    if (username === "user" && password === "web_dev") {
-        alert("You have successfully logged in.");
-        loginErrorMsg.style.opacity = 0;
-        location.reload();
-    } else {
-        document.getElementById("login-error-msg").style.opacity = 1;
-    }
-    document.getElementById("login-form").username.value = null;
-    document.getElementById("login-form").password.value = null;
-}
-
-$("#login-form").submit(function(e) {
-    e.preventDefault();
-});
-</script>

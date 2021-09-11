@@ -6,6 +6,10 @@
   font-family: 'Poppins',sans-serif;
   text-decoration: none;
 }
+body{
+  background-color:  #d1d1e0 !important;
+  
+}
 footer{
   width: 100%;
   position: fixed;
