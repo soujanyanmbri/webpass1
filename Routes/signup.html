@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../CSS/reg.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -90,84 +91,23 @@
         
       </div>
     </nav>
-
-    <div class="bs-example">
-      <h1 class="border-bottom pb-3 mb-4">Registration Form</h1>
-      <form class="needs-validation" action="#" method="post" novalidate>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label" for="firstName">First Name:</label>
-              <div class="col-sm-9">
-                  <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label" for="lastName">Last Name:</label>
-              <div class="col-sm-9">
-                  <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label" for="inputEmail">Email Address:</label>
-              <div class="col-sm-9">
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" required>
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label" for="phoneNumber">Mobile Number:</label>
-              <div class="col-sm-9">
-                  <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label">Date of Birth:</label>
-              <div class="col-sm-6">
-                <input type="date" id="birthday" name="birthday">
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label" for="postalAddress">Postal Address:</label>
-              <div class="col-sm-9">
-                  <textarea rows="3" class="form-control" id="postalAddress" placeholder="Postal Address" required></textarea>
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label" for="ZipCode">Zip Code:</label>
-              <div class="col-sm-9">
-                  <input type="text" class="form-control" id="ZipCode" placeholder="Zip Code" required>
-              </div>
-          </div>
-          <div class="form-group row">
-              <label class="col-sm-3 col-form-label">Gender:</label>
-              <div class="col-sm-9 mt-2">
-                  <label class="mb-0 mr-3">
-                      <input type="radio" class="mr-1" name="gender"> Male
-                  </label>
-                  <label class="mb-0 mr-3">
-                      <input type="radio" class="mr-1" name="gender"> Female
-                  </label>
-              </div>
-          </div>
-          <div class="form-group row">
-              <div class="col-sm-9 offset-sm-3">
-                  <label class="checkbox-inline">
-                      <input type="checkbox" class="mr-1" value="agree"> I agree to the <a href="terms.html">Terms and Conditions</a>.
-                  </label>
-              </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-sm-9 offset-sm-3">
-                <p style="color:darkorchid;"> Already have an account? <a href="login.html"> Login! </a></p>
-            </div>
-        </div>
-          <div class="form-group row">
-              <div class="col-sm-9 offset-sm-3">
-                  <input type="submit" class="btn btn-primary" value="Submit">
-                  <input type="reset" class="btn btn-secondary" value="Reset">
-              </div>
-          </div>
-          
+    <div id="main-holder">
+      <h1 id="login-header">Sign Up!</h1>
+      <form id="login-form" onsubmit="checkLogin()">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="text" name="phone_number" id="username-field" class="login-form-field" placeholder="Phone">
+        <input type="text" name="address" id="username-field" class="login-form-field" placeholder="Address">
+        <input type="text" name="mail" id="username-field" class="login-form-field" placeholder="Mail ID">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"> 
+        <input type="password" name="cpassword" id="password-field" class="login-form-field" placeholder="Confirm Password"> 
+        <input type="submit" value="Login" id="login-form-submit" >
+        <br>
+        <a href = "login.html"> Already have an account? </a>
+       <a href = "signup.html"> Forgot Password? </a>
       </form>
-  </div>
+       
+    </div>
+    
     <div class="footer-filler"></div>
     <footer>
       <div class="content">
