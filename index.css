@@ -10,7 +10,7 @@ body{
   background-image: url('/images/wallpaper.png') !important;
 }
 
-
+temp {
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -25,7 +25,6 @@ body{
    }
 }
 
-
 footer{
   width: 100%;
   position: fixed;
@@ -34,8 +33,8 @@ footer{
   left: 0;
   background: #111;
   transition: max-height 0.15s ease-out;
-  
 }
+
 footer .content{
   max-width: 1350px;
   margin: auto;
@@ -53,32 +52,39 @@ footer:hover {
 footer .content p,a{
   color: #fff;
 }
+
 footer .content .box{
   width: 33%;
   transition: all 0.4s ease;
 }
+
 footer .content .topic{
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
-
 }
+
 footer .content p{
   text-align: justify;
 }
+
 footer .content .lower .topic{
   margin: 24px 0 5px 0;
 }
+
 footer .content .lower i{
   padding-right: 16px;
 }
+
 footer .content {
   padding-left: 80px;
 }
+
 footer .content  a{
   line-height: 32px;
 }
+
 footer .content .right input[type="text"]{
   height: 30px;
   width: 100%;
@@ -90,6 +96,7 @@ footer .content .right input[type="text"]{
   font-size: 17px;
   border: 2px solid #222222;
 }
+
 footer .content .right input[type="submit"]{
   height: 42px;
   width: 100%;
@@ -104,16 +111,20 @@ footer .content .right input[type="submit"]{
   border: 2px solid pink;
   transition: all 0.3s ease-in-out;
 }
+
 .content .right input[type="submit"]:hover{
   background: none;
   color: pink;
 }
+
 .card {
   border: 10px !important;
 }
+
 nav .navbar-nav li a:hover{
   color:pink !important;
   }
+
 footer .content .media-icons a{
   font-size: 16px;
   height: 45px;
@@ -126,29 +137,36 @@ footer .content .media-icons a{
   margin: 30px 5px 0 0;
   transition: all 0.3s ease;
 }
+
 .content .media-icons a:hover{
   border-color: pink;
 }
+
 footer .bottom{
   width: 100%;
   text-align: right;
   color: #d9d9d9;
   padding: 0 40px 0px 0;
 }
+
 footer .bottom a{
   color: pink;
 }
+
 footer a{
   transition: all 0.3s ease;
 }
+
 footer a:hover{
   color: pink;
 }
+
 @media (max-width:1100px) {
   footer .content {
     padding-left: 50px;
   }
 }
+
 @media (max-width:950px){
   footer .content .box{
     width: 50%;
@@ -157,6 +175,7 @@ footer a:hover{
     margin-top: 40px;
   }
 }
+
 @media (max-width:560px){
   footer{
     position: relative;
@@ -169,4 +188,3 @@ footer a:hover{
     padding-left: 0;
   }
 }
-
