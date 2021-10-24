@@ -17,212 +17,128 @@
     <title>JavaScript Courses</title>
   </head>
   <body style="background-color: pink;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/">
-        <img src="../../images/book.jpg" style="width: 40px; height:40px" class="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
-          <li class="nav-item active" >
-            <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="../about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contactus.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../coursespage.html">Courses offered</a>
-          </li>
-          <li class="nav-item" style="margin-right:2em;">
-            <a class="nav-link" href="../mentors.html">Mentors</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <img src="../../images/logout.png" style="width: 40px; height:40px" class="logo">
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="../../index.html"> Logout</a>
-          </li>
-  
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        
-        
-      </div>
-    </nav>
-    
-    <h1 class="border-bottom pb-3 mb-4">JavaScript Courses</h1>
-    <div class="dropdown show">
-      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Filter according to length
-      </a>
-    
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <a class="dropdown-item" onclick="filterSelection('all')" href="#" >all</a>
-        <a class="dropdown-item" onclick="filterSelection('small')" href="#">Small</a>
-        <a class="dropdown-item" onclick="filterSelection('medium')" href="#">Medium</a>
-        <a class="dropdown-item" onclick="filterSelection('long')" href="#">Long</a>
-    
-      </div>
-    </div>
-  </nav>
+    <div id="nav-container"></div>
+    <div class="container filter small">
+      <h1>Short Courses (1-5 hours)</h1>
+      <p style="font-size: 150%;">Take your first step towards mastering JavaScript!</p>
+      <div class="box-container">
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/PkZNo7MFNFg">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/PkZNo7MFNFg" target="popup"> Learn JavaScript</a></h2>
+          <p style="word-wrap: inherit;">This complete 134-part JavaScript tutorial for beginners will teach you
+            everything you need to know to get started with the JavaScript programming language.</p>
+        </div>
 
-  <div class="container filter small">
-    <h1>Short Courses (1-5 hours)</h1>
-    <p style="font-size: 150%;">Take your first step towards mastering JavaScript!</p>
-    <div class="box-container">
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/PkZNo7MFNFg">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/PkZNo7MFNFg" target="popup"> Learn JavaScript</a></h2>
-        <p style="word-wrap: inherit;">This complete 134-part JavaScript tutorial for beginners will teach you
-          everything you need to know to get started with the JavaScript programming language.</p>
-      </div>
-
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/dOnAC2Rr-6A">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/dOnAC2Rr-6A" target="popup"> Javascript Full Course for Beginners
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/dOnAC2Rr-6A">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/dOnAC2Rr-6A" target="popup"> Javascript Full Course for Beginners
+              to
+              Advanced</a></h2>
+          <p style="word-wrap: inherit;"> Upon completion of this course you will a solid foundation enabling to start
             to
-            Advanced</a></h2>
-        <p style="word-wrap: inherit;"> Upon completion of this course you will a solid foundation enabling to start
-          to
-          building backend applications using NodeJS and frontend applications using React of Vue. </p>
-      </div>
+            building backend applications using NodeJS and frontend applications using React of Vue. </p>
+        </div>
 
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/o1IaduQICO0">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/o1IaduQICO0" target="popup"> JavaScript Training | Edureka
-          </a></h2>
-        <p style="word-wrap: inherit;"> This Edureka video on "JavaScript full course" is a complete guide to
-          JavaScript
-          which covers in-depth knowledge about data types, variables, functions, event handling, form validation, etc
-          using JavaScript.</p>
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/o1IaduQICO0">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/o1IaduQICO0" target="popup"> JavaScript Training | Edureka
+            </a></h2>
+          <p style="word-wrap: inherit;"> This Edureka video on "JavaScript full course" is a complete guide to
+            JavaScript
+            which covers in-depth knowledge about data types, variables, functions, event handling, form validation, etc
+            using JavaScript.</p>
 
-      </div>
-    </div>
-  </div>
-  <div class="container filter medium">
-    <h1>Medium Courses (5-10 hours)</h1>
-    <p style="font-size: 150%;">Transition from beginner to master in a day!</p>
-    <div class="box-container">
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/Qqx_wzMmFeA">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/Qqx_wzMmFeA" target="popup"> JavaScript Tutorial for Beginners</a>
-        </h2>
-        <p style="word-wrap: inherit;">Take your web development skills to the next level with this Clever Programmer
-          Learn Javascript course for beginners.</p>
-      </div>
-
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/jS4aFq5-91M">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/jS4aFq5-91M" target="popup"> JavaScript Programming - Full
-            Course</a>
-        </h2>
-        <p style="word-wrap: inherit;">Learn JavaScript from scratch by solving over a hundred different coding
-          challenges. </p>
-      </div>
-
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/3PHXvlpOkf4">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/3PHXvlpOkf4" target="popup"> Build 15 JavaScript Projects</a></h2>
-        <p style="word-wrap: inherit;">Sharpen your JavaScript skills by building 15 projects using plain JavaScript
-          without frameworks. </p>
-      </div>
-    </div>
-  </div>
-  <div class="container filter long">
-    <h1>Long Courses (>10 hours)</h1>
-    <p style="font-size: 150%;">Become a Professional!</p>
-    <div class="box-container">
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/g1X6b5tRvrw">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/g1X6b5tRvrw" target="popup"> Learn JavaScript | Great Learning</a>
-        </h2>
-        <p style="word-wrap: inherit;">In this tutorial, we have covered all the topics that will give you a headstart
-          to work in this field, such as, What is JavaScript, Where to write, Loops in JavaScript, and much more.</p>
-      </div>
-
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/U-JhRjRaD4A">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/U-JhRjRaD4A" target="popup">Complete Web Development Course</a>
-        </h2>
-        <p style="word-wrap: inherit;">Everything you need to become a professional web developer is included in this
-          free screen capture HD video tutorial course! Begin with the basics and Learn some of or more Advanced
-          Projects Right away! </p>
-      </div>
-
-      <div class="box boxx">
-        <iframe class="video-frame" src="https://www.youtube.com/embed/KGkiIBTq0y0">
-        </iframe>
-        <h2><a href="https://www.youtube.com/embed/KGkiIBTq0y0" target="popup">Complete JavaScript Tutorial</a></h2>
-        <p style="word-wrap: inherit;">We will cover Basic to Advanced Javascript, Modern JavaScript, OOPS in
-          JavaScript.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="ref">
-    <h1>Useful Resources</h1>
-
-    <ul>
-      <li><a href="https://www.w3schools.com/js/">w3schools JavaScript Tutorial</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developer Network(MDN) Web
-          Docs</a></li>
-      <li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
-      <li><a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">Eloquent JavaScript</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-filler"></div>
-  <footer>
-    <div class="content">
-      <div class="left box">
-
-        <div class="upper">
-          <div class="topic">Contact us</div>
-          <div class="phone">
-            <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
-          </div>
-          <div class="email">
-            <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
-          </div>
         </div>
       </div>
-      <div class="middle box">
-        <div><a href="../terms.html">Terms and Conditions</a></div>
-        <div><a href="../privacypolicy.html"> Privacy Policy</a></div>
-        <div><a href="#">Help</a></div>
-        <div><a href="#">Support</a></div>
-        <div><a href="../about.html">About Us</a></div>
-      </div>
-      <div class="right box">
-        <div class="topic">Subscribe to the content!</div>
-        <form action="#">
-          <input type="text" placeholder="Enter email address">
-          <input type="submit" name="" value="Send">
+    </div>
+    <div class="container filter medium">
+      <h1>Medium Courses (5-10 hours)</h1>
+      <p style="font-size: 150%;">Transition from beginner to master in a day!</p>
+      <div class="box-container">
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/Qqx_wzMmFeA">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/Qqx_wzMmFeA" target="popup"> JavaScript Tutorial for Beginners</a>
+          </h2>
+          <p style="word-wrap: inherit;">Take your web development skills to the next level with this Clever Programmer
+            Learn Javascript course for beginners.</p>
+        </div>
 
-        </form>
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/jS4aFq5-91M">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/jS4aFq5-91M" target="popup"> JavaScript Programming - Full
+              Course</a>
+          </h2>
+          <p style="word-wrap: inherit;">Learn JavaScript from scratch by solving over a hundred different coding
+            challenges. </p>
+        </div>
+
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/3PHXvlpOkf4">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/3PHXvlpOkf4" target="popup"> Build 15 JavaScript Projects</a></h2>
+          <p style="word-wrap: inherit;">Sharpen your JavaScript skills by building 15 projects using plain JavaScript
+            without frameworks. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container filter long">
+      <h1>Long Courses (>10 hours)</h1>
+      <p style="font-size: 150%;">Become a Professional!</p>
+      <div class="box-container">
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/g1X6b5tRvrw">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/g1X6b5tRvrw" target="popup"> Learn JavaScript | Great Learning</a>
+          </h2>
+          <p style="word-wrap: inherit;">In this tutorial, we have covered all the topics that will give you a headstart
+            to work in this field, such as, What is JavaScript, Where to write, Loops in JavaScript, and much more.</p>
+        </div>
+
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/U-JhRjRaD4A">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/U-JhRjRaD4A" target="popup">Complete Web Development Course</a>
+          </h2>
+          <p style="word-wrap: inherit;">Everything you need to become a professional web developer is included in this
+            free screen capture HD video tutorial course! Begin with the basics and Learn some of or more Advanced
+            Projects Right away! </p>
+        </div>
+
+        <div class="box boxx">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/KGkiIBTq0y0">
+          </iframe>
+          <h2><a href="https://www.youtube.com/embed/KGkiIBTq0y0" target="popup">Complete JavaScript Tutorial</a></h2>
+          <p style="word-wrap: inherit;">We will cover Basic to Advanced Javascript, Modern JavaScript, OOPS in
+            JavaScript.</p>
+        </div>
       </div>
     </div>
 
+    <div class="ref">
+      <h1>Useful Resources</h1>
 
-</body>
+      <ul>
+        <li><a href="https://www.w3schools.com/js/">w3schools JavaScript Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developer Network(MDN) Web
+            Docs</a></li>
+        <li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
+        <li><a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">Eloquent JavaScript</a></li>
+      </ul>
+    </div>
 
+    <div class="footer-filler"></div>
+    <div id="footer-container"></div>
+  </body>
 </html>
+
+<script>
+  $(document).ready(function(){
+    $("#nav-container").load("/Components/nav.html");
+    $("#footer-container").load("/Components/footer.html");
+  });
+</script>

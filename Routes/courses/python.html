@@ -17,66 +17,19 @@
     <title>Python Courses</title>
   </head>
   <body style="background-color: pink;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/">
-        <img src="../../images/book.jpg" style="width: 40px; height:40px" class="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
-          <li class="nav-item active" >
-            <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="../about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contactus.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../coursespage.html">Courses offered</a>
-          </li>
-          <li class="nav-item" style="margin-right:2em;">
-            <a class="nav-link" href="../mentors.html">Mentors</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <img src="../../images/logout.png" style="width: 40px; height:40px" class="logo">
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="../../index.html"> Logout</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        
-        
-      </div>
-    </nav>
-    
+    <div id="nav-container"></div>
     <h1 class="border-bottom pb-3 mb-4" style="padding: 20px;">Python Courses</h1>
-
     <div class="dropdown show">
       <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Filter according to length
       </a>
-    
       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
         <a class="dropdown-item" onclick="filterSelection('all')" href="#" >all</a>
         <a class="dropdown-item" onclick="filterSelection('small')" href="#">Small</a>
         <a class="dropdown-item" onclick="filterSelection('medium')" href="#">Medium</a>
         <a class="dropdown-item" onclick="filterSelection('long')" href="#">Long</a>
-    
       </div>
     </div>
-
-
     <div class="container filter small">
       <h1>Short Courses (1-5 hours)</h1>
       <p style="font-size: 150%;">Take your first step towards mastering Python!</p>
@@ -87,21 +40,18 @@
           <h2><a href="https://www.youtube.com/embed/rfscVS0vtbw" target="popup"> Learn Python - Full Course for Beginners</a></h2>
           <p style="word-wrap: inherit;">This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python programmer in no time!</p>
         </div>
-
         <div class="box boxx">
           <iframe class="video-frame" src="https://www.youtube.com/embed/hl-Y3tLMkbY">
           </iframe>
           <h2><a href="https://www.youtube.com/embed/hl-Y3tLMkbY" target="popup"> Python Programming - Full Course for Beginners to Experts</a></h2>
           <p style="word-wrap: inherit;"> This Python Programming course covers everything you need to about Python programming. You will Learn about python programming from the very basics to the advanced level.</p>
         </div>
-
         <div class="box boxx">
           <iframe class="video-frame" src="https://www.youtube.com/embed/t8pPdKYpowI">
           </iframe>
           <h2><a href="https://www.youtube.com/embed/t8pPdKYpowI" target="popup"> Python Tutorial for Beginners
           </a></h2>
           <p style="word-wrap: inherit;"> In this complete Python course you will learn everything you need to get started with Python. By the end of this course, you will have a good understanding of the concepts and hands-on experience with several demo projects you can follow along.</p>
-        
         </div>
       </div>
     </div>    
@@ -115,14 +65,12 @@
           <h2><a href="https://www.youtube.com/embed/_uQrJ0TkZlc" target="popup"> Python for Beginners [Full Course]</a></h2>
           <p style="word-wrap: inherit;">Python tutorial - Python for beginners - Go from Zero to Hero with Python (includes machine learning & web development project).</p>
         </div>
-
         <div class="box boxx">
           <iframe class="video-frame" src="https://www.youtube.com/embed/HGOBQPFzWKo">
           </iframe>
           <h2><a href="https://www.youtube.com/embed/HGOBQPFzWKo" target="popup"> Intermediate Python Programming Course</a></h2>
           <p style="word-wrap: inherit;">Take your Python skills to the next level with this intermediate Python course. </p>
         </div>
-
         <div class="box boxx">
           <iframe class="video-frame" src="https://www.youtube.com/embed/PJlAnR3asGQ">
           </iframe>
@@ -157,7 +105,7 @@
         </div>
       </div>
     </div> 
-    
+  
     <div class="ref">
       <h1>Useful Resources</h1>
   
@@ -171,37 +119,13 @@
     </div>
 
     <div class="footer-filler"></div>
-    <footer>
-      <div class="content">
-        <div class="left box">
-          
-          <div class="upper">
-            <div class="topic">Contact us</div>
-            <div class="phone">
-              <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
-            </div>
-            <div class="email">
-              <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
-            </div>
-          </div>
-        </div>
-        <div class="middle box">
-          <div><a href="../terms.html">Terms and Conditions</a></div>
-          <div><a href="../privacypolicy.html"> Privacy Policy</a></div>
-          <div><a href="#">Help</a></div>
-          <div><a href="#">Support</a></div>
-          <div><a href="../about.html">About Us</a></div>
-        </div>
-        <div class="right box">
-          <div class="topic">Subscribe to the content!</div>
-          <form action="#">
-            <input type="text" placeholder="Enter email address">
-            <input type="submit" name="" value="Send">
-            
-          </form>
-        </div>
-      </div>
-     
-  
-    </body>
+    <div id="footer-container"></div>
+  </body>
 </html>
+
+<script>
+  $(document).ready(function(){
+    $("#nav-container").load("/Components/nav.html");
+    $("#footer-container").load("/Components/footer.html");
+  });
+</script>
