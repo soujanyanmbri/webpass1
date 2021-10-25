@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>    
+<links>
+    <link>
+        <title>Home Page</title>
+        <url>/index.html</url>
+        <content>Content</content>
+    </link>
+    <link>
+        <title>About Us</title>
+        <url>/Routes/about.html</url>
+    </link>
+    <link>
+        <title>Contact Us</title>
+        <url>/Routes/contact.html</url>
+    </link>
+    <link>
+        <title>Course Page</title>
+        <url>/Routes/coursepage.html</url>
+    </link>
+    <link>
+        <title>Login Page</title>
+        <url>/Routes/login.html</url>
+    </link>
+    <link>
+        <title>Mentors</title>
+        <url>/Routes/mentors.html</url>
+    </link>
+    <link>
+        <title>Privacy Policy</title>
+        <url>/Routes/privacy.html</url>
+    </link>
+    <link>
+        <title>Signup Page</title>
+        <url>/Routes/signup.html</url>
+    </link>
+    <link>
+        <title>Terms and Conditions</title>
+        <url>/Routes/terms.html</url>
+    </link>
+    <link>
+        <title>AJAX</title>
+        <url>/Routes/courses/ajax.html</url>
+    </link>
+    <link>
+        <title>CSS</title>
+        <url>/Routes/courses/css.html</url>
+    </link>
+    <link>
+        <title>HTML</title>
+        <url>/Routes/courses/html_course.html</url>
+    </link>
+    <link>
+        <title>JavaScript</title>
+        <url>/Routes/courses/javascript.html</url>
+    </link>
+    <link>
+        <title>Java</title>
+        <url>/Routes/courses/java.html</url>
+    </link>
+    <link>
+        <title>Python</title>
+        <url>/Routes/courses/python.html</url>
+    </link>
+</links>
