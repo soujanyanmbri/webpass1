@@ -18,6 +18,7 @@
   </head>
   <body style="background-color: pink;">
     <div id="nav-container"></div>
+    <div id="part-container"></div>
     
     <h1 class="border-bottom pb-3 mb-4" style="padding: 20px;">Ajax Courses</h1>
 
@@ -132,5 +133,6 @@
   $(document).ready(function(){
     $("#nav-container").load("/Components/nav.html");
     $("#footer-container").load("/Components/footer.html");
+    $("#part-container").load("/Components/participants.php");
   });
 </script>
