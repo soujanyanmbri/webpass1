@@ -1,12 +1,18 @@
+body{
+    background-image: url('/images/wallpaper.png') !important;
+  }
+
 .container{
     padding:10px 20%;
     padding-bottom: 100px;
+    color: #fff;
 }
 
 .container .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap:30px;
+    color: #fff;
 }
 
 .container .box-container .box{
@@ -14,9 +20,10 @@
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     border: 2px solid black;
-    background:  #ffe6e6;
+    background:  rgb(32, 32, 32);
     text-align: center;
     padding:40px 30px;
+    color:#fff;
 }
 .boxx{
     border-radius: 4px;
@@ -46,7 +53,14 @@
 } 
 
 .ref {
+    background-color: rgb(54, 50, 50);
     padding:10px 20%;
     padding-bottom: 100px;
     font-size: 1.5rem;
+    color:#fff;
+    width: 620px;
+  padding: 10px;
+  border: 5px solid rgb(15, 14, 14);
+  margin: 0 auto;
+  text-align: center;
 }

@@ -40,7 +40,7 @@
     
     <title>Courses</title>
   </head>
-  <body style="background-color: pink;">
+  <body style="background-colour: black">
 
     <div class="card-container">
       <div class="card border border-dark rounded">

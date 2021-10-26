@@ -2,7 +2,9 @@ html {
     height: 100%;
   }
   
-
+  body{
+    background-image: url('/images/wallpaper.png') !important;
+  }
   
   #main-holder {
     width: 30%;

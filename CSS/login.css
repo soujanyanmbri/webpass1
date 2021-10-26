@@ -2,7 +2,9 @@ html {
     height: 100%;
   }
   
-
+  body{
+    background-image: url('/images/wallpaper.png') !important;
+  }
   
   #main-holder {
     width: 30%;
@@ -36,7 +38,7 @@ html {
     font-weight: bold;
     color: #8a0000;
     border: 1px solid #8a0000;
-    background-color: #e58f8f;
+    background-color: rgb(32, 32, 32);
     opacity: 0;
   }
   

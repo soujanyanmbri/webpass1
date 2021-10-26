@@ -1,3 +1,7 @@
+body{
+  background-image: url('/images/wallpaper.png') !important;
+}
+
 .card{
   border-radius: 10px !important; 
   background: #fff;
@@ -7,11 +11,12 @@
   cursor: pointer;
   height: calc(min(45vh,45vw)) !important;
   width: calc(min(40vh,40vw)) !important;
-  background-color: salmon;
+  background-color: rgb(32, 32, 32);
   margin-left: auto;
   margin-right: auto;
   margin-top: 5vh;
   margin-bottom: 5vh;
+  color: #fff;
 }
 
 .card:hover{
@@ -43,4 +48,8 @@
 
 .card-body {
   padding: 0.25rem;
+}
+
+.t-btn {
+  background-color: rgb(147, 147, 212);
 }
