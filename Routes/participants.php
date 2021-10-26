@@ -39,7 +39,7 @@
                 echo "<p>Course : $course_name</p>" ;
                 echo "<ul class='list-group'>";
                 while($row = $result->fetch_assoc()){
-                    echo "<li class='list-group-item'>".$row['username']."</li>";
+                    echo "<li class='list-group-item' style='color:black'>".$row['username']."</li>";
                 }
                 echo "</ul>";
             }
