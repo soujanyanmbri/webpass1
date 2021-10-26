@@ -5,6 +5,8 @@
   require_once "../config.php";
   include_once('../Components/nav.html');
 
+  $user = $_SESSION['username'];
+
   // $username = $_SESSION["username"];
   // if ($username == "") {
     // header("Location: ../Routes/login.php");
@@ -48,20 +50,27 @@
           </h4>
           <p class="card-text"> Programming Language</p>
           <div class="button-container">
-            <a href="courses/java.html" class="btn btn-primary t-btn">Go to course</a>
-            <br>
-            <form method="POST">
-            <input type="submit" name='java_course' value="Register now" method="POST" class="btn btn-primary t-btn"></input>
-            </form>
-            <?php
+          <?php
+          $sql = "SELECT `java_course` FROM `user_courses` WHERE `username`='$user'";
+          $result = mysqli_query($link, $sql);
+          $row = mysqli_fetch_array($result);
+          if($row[0] == 1) {
+            echo '<a href="courses/java.html" class="btn btn-primary t-btn">Go to course</a>';
+          }
+          else {
+            echo '<form method="POST">';
+            echo '<input type="submit" name="java_course" value="Register now" class="btn btn-primary t-btn"></input>';
+            echo '</form>';
+
             if(isset($_POST['java_course'])) {
-              $user = $_SESSION['username'];
               $sql = "UPDATE `user_courses` SET `java_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
-
-              echo "Successfully registered.";
+              if(mysqli_affected_rows($link) > 0) {
+                echo '<a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>';
+              }            
             }
-            ?>
+          }
+          ?>
           </div>
         </div>
       </div>
@@ -71,19 +80,27 @@
           <h4 class="card-title">PYTHON - <?php echo get_participant_count('python_course');?> Registered</h4>
           <p class="card-text">Programming Language.</p>
           <div class="button-container">
-            <a href="courses/python.html" class="btn btn-primary t-btn">Go to course</a>
-            <br>
-            <form method="POST">
-            <input type="submit" name="python_course" value="Register now" class="btn btn-primary t-btn"></input> 
-            </form>
-            <?php
+          <?php
+          $sql = "SELECT `python_course` FROM `user_courses` WHERE `username`='$user'";
+          $result = mysqli_query($link, $sql);
+          $row = mysqli_fetch_array($result);
+          if($row[0] == 1) {
+            echo '<a href="courses/python.html" class="btn btn-primary t-btn">Go to course</a>';
+          }
+          else {
+            echo '<form method="POST">';
+            echo '<input type="submit" name="python_course" value="Register now" class="btn btn-primary t-btn"></input>';
+            echo '</form>';
+
             if(isset($_POST['python_course'])) {
-              $user = $_SESSION['username'];
               $sql = "UPDATE `user_courses` SET `python_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
-              echo "Successfully registered.";
+              if(mysqli_affected_rows($link) > 0) {
+                echo '<a href="courses/python.html" class="btn btn-primary t-btn">Go to course</a>';
+              }            
             }
-            ?>
+          }
+          ?>
           </div>
         </div>
       </div>
@@ -93,19 +110,27 @@
           <h4 class="card-title">JAVASCRIPT - <?php echo get_participant_count('javascript_course');?> Registered</h4>
           <p class="card-text">Scripting Language.</p>
           <div class="button-container">
-            <a href="courses/javascript.html" class="btn btn-primary t-btn">Go to course</a>
-            <br>
-            <form method="POST">
-            <input type="submit" name="javascript_course" value="Register now" class="btn btn-primary t-btn"></input>
-            </form>
-            <?php
+          <?php
+          $sql = "SELECT `javascript_course` FROM `user_courses` WHERE `username`='$user'";
+          $result = mysqli_query($link, $sql);
+          $row = mysqli_fetch_array($result);
+          if($row[0] == 1) {
+            echo '<a href="courses/javascript.html" class="btn btn-primary t-btn">Go to course</a>';
+          }
+          else {
+            echo '<form method="POST">';
+            echo '<input type="submit" name="javascript_course" value="Register now" class="btn btn-primary t-btn"></input>';
+            echo '</form>';
+
             if(isset($_POST['javascript_course'])) {
-              $user = $_SESSION['username'];
               $sql = "UPDATE `user_courses` SET `javascript_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
-              echo "Successfully registered.";
+              if(mysqli_affected_rows($link) > 0) {
+                echo '<a href="courses/javascript.html" class="btn btn-primary t-btn">Go to course</a>';
+              }            
             }
-            ?>
+          }
+          ?>
           </div>
         </div>
       </div>
@@ -115,17 +140,26 @@
           <h4 class="card-title">AJAX - <?php echo get_participant_count("ajax_course")?> Registered </h4>
           <p class="card-text">Set of web development techniques.</p>
           <div class="button-container">
-            <a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>
-            <br>
-            <form method="POST">
-            <input type="submit" name="ajax_course" value="Register now" class="btn btn-primary t-btn"></input>        
-            </form>
             <?php
-            if(isset($_POST['ajax_course'])) {
-              $user = $_SESSION['username'];
-              $sql = "UPDATE `user_courses` SET `ajax_course`=1 WHERE `username`='$user'";       
-              $result = mysqli_query($link, $sql);
-              echo "Successfully registered.";
+
+            $sql = "SELECT `ajax_course` FROM `user_courses` WHERE `username`='$user'";
+            $result = mysqli_query($link, $sql);
+            $row = mysqli_fetch_array($result);
+            if($row[0] == 1) {
+              echo '<a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>';
+            }
+            else {
+              echo '<form method="POST">';
+              echo '<input type="submit" name="ajax_course" value="Register now" class="btn btn-primary t-btn"></input>';
+              echo '</form>';
+
+              if(isset($_POST['ajax_course'])) {
+                $sql = "UPDATE `user_courses` SET `ajax_course`=1 WHERE `username`='$user'";       
+                $result = mysqli_query($link, $sql);
+                if(mysqli_affected_rows($link) > 0) {
+                  echo '<a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>';
+                }            
+              }
             }
             ?>
           </div>
@@ -137,19 +171,27 @@
           <h4 class="card-title">HTML - <?php echo get_participant_count("html_course")?> Registered </h4>
           <p class="card-text">Hypertext Markup Language.</p>
           <div class="button-container">
-            <a href="courses/html_course.html" class="btn btn-primary t-btn">Go to course</a>
-            <br>
-            <form method="POST">
-            <input type="submit" name="html_course" value="Register now" class="btn btn-primary t-btn"></input>
-            </form>
-            <?php
+          <?php
+          $sql = "SELECT `html_course` FROM `user_courses` WHERE `username`='$user'";
+          $result = mysqli_query($link, $sql);
+          $row = mysqli_fetch_array($result);
+          if($row[0] == 1) {
+            echo '<a href="courses/html_course.html" class="btn btn-primary t-btn">Go to course</a>';
+          }
+          else {
+            echo '<form method="POST">';
+            echo '<input type="submit" name="html_course" value="Register now" class="btn btn-primary t-btn"></input>';
+            echo '</form>';
+
             if(isset($_POST['html_course'])) {
-              $user = $_SESSION['username'];
               $sql = "UPDATE `user_courses` SET `html_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
-              echo "Successfully registered.";
+              if(mysqli_affected_rows($link) > 0) {
+                echo '<a href="courses/html_course.html" class="btn btn-primary t-btn">Go to course</a>';
+              }            
             }
-            ?>
+          }
+          ?>
           </div>
         </div>
       </div>
@@ -159,19 +201,27 @@
           <h4 class="card-title">CSS - <?php echo get_participant_count("css_course")?> Registered </h4>
           <p class="card-text">Cascading Style Sheets </p>
           <div class="button-container">
-            <a href="courses/css.html" class="btn btn-primary t-btn">Go to course</a>
-            <br>
-            <form method="POST">
-            <input type="submit" name="css_course" value="Register now" class="btn btn-primary t-btn"></input>
-            </form>
-            <?php
+          <?php
+          $sql = "SELECT `css_course` FROM `user_courses` WHERE `username`='$user'";
+          $result = mysqli_query($link, $sql);
+          $row = mysqli_fetch_array($result);
+          if($row[0] == 1) {
+            echo '<a href="courses/css.html" class="btn btn-primary t-btn">Go to course</a>';
+          }
+          else {
+            echo '<form method="POST">';
+            echo '<input type="submit" name="css_course" value="Register now" class="btn btn-primary t-btn"></input>';
+            echo '</form>';
+
             if(isset($_POST['css_course'])) {
-              $user = $_SESSION['username'];
               $sql = "UPDATE `user_courses` SET `css_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
-              echo "Successfully registered.";
+              if(mysqli_affected_rows($link) > 0) {
+                echo '<a href="courses/css.html" class="btn btn-primary t-btn">Go to course</a>';
+              }            
             }
-            ?>
+          }
+          ?>
           </div>
         </div>
       </div>
