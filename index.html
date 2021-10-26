@@ -28,20 +28,34 @@
         </div>
     
         <div class="content" style="color: white; ">
-          <h3>Welcome to <span style="color: red !important;">WebCoursera! </span></h3>
-          <p>Ready to take your first step towards becoming a web developer? Or are you mid-career professional seeking to add a new skill to your repertoire? You've come to the right place! No matter your expertise, you'll find something here. From introductory courses to intense hands-on sessions, we have it all!</p>
-          <p style="color:whitesmoke !important">So <a href="Routes/signup.php" >sign up</a> and start coding!</p>
-          <p> <a href="Routes/login.php">Login Here</a> if you have an account</p>
-          <p> Check out our <a href="Routes/coursespage.php">Courses</a> here!</p>
+          <div class="inner-content">
+            <h3>Welcome to <span style="color: red !important;">WebCoursera! </span></h3>
+            <p>Ready to take your first step towards becoming a web developer? Or are you mid-career professional seeking to add a new skill to your repertoire? You've come to the right place! No matter your expertise, you'll find something here. From introductory courses to intense hands-on sessions, we have it all!</p>
+            <p style="color:whitesmoke !important">So <a href="Routes/signup.php" >sign up</a> and start coding!</p>
+            <p> <a href="Routes/login.php">Login Here</a> if you have an account</p>
+            <p> Check out our <a href="Routes/coursespage.php">Courses</a> here!</p>
+          </div>
         </div>
       </div>
     
     <div class="footer-filler"></div>
-    <div id="footer-container">
-
-    </div>
+    <div id="footer-container"></div>
   </body>
 </html>
+
+<style>
+  .content{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 40px 0 40px;
+    margin-right: 10px;
+  }
+
+  .inner-content{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px 0 50px 0;
+    padding: 10px;
+  }
+</style>
 
 <script>
   $(document).ready(function(){
