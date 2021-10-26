@@ -14,7 +14,6 @@
   function get_participant_count($course) {
     $link = $GLOBALS['link'];
     $sql = "SELECT COUNT(*) FROM user_courses WHERE $course = 1";
-    // echo $sql . "<br>";
     $result = mysqli_query($link, $sql);
     $row = mysqli_fetch_array($result);
     return $row[0];
