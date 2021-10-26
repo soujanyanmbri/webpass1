@@ -1,5 +1,5 @@
 <?php
-  // session_start();
+  session_start();
   // $_SESSION["loggedin"] = true;
   // $_SESSION["username"] = 'kay';
   require_once "../config.php";
