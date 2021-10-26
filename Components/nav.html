@@ -18,7 +18,7 @@
             <a class="nav-link" href="/Routes/contactus.html">Contact Us</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/Routes/coursespage.html">Courses offered</a>
+            <a class="nav-link" href="/Routes/coursespage.php">Courses offered</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/Routes/mentors.html"> Mentors</a>
@@ -29,13 +29,13 @@
             <img src="/images/login.png" style="width: 40px; height:40px" class="logo">
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="/Routes/login.html"> Login</a>
+            <a class="nav-link " href="/Routes/login.php"> Login</a>
         </li>
         <li class="nav-item">
             <img src="/images/sign-up.png" style="width: 40px; height:40px" class="logo">
         </li>
         <li class="nav-item" style="margin-right:2em;">
-            <a class="nav-link" href="/Routes/signup.html">Sign Up!</a>
+            <a class="nav-link" href="/Routes/signup.php">Sign Up!</a>
         </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -53,7 +53,7 @@
 </style>
 
 <script>
-    console.log("navbar loaded");
+    // console._log("navbar loaded");
     function showResult(str) {
         if (str.length==0) {
             document.getElementById("livesearch").innerHTML="";
@@ -67,9 +67,9 @@
             document.getElementById("livesearch").style.border="1px solid #A5ACB2";
             }
         }
-        console.log(str);
+        // console.log(str);
         xmlhttp.open("GET","/livesearch.php?q="+str,true);
         xmlhttp.send();
-        console.log("done");
+        // console.log("done");
     }
 </script>

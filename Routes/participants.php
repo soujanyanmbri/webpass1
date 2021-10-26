@@ -75,6 +75,6 @@
     .list-group {
         margin-top: 2.5%;
         height : 70vh ;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 </style>

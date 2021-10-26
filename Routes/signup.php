@@ -109,27 +109,36 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <body style="background-color: salmon;">
     <div id="nav-container">   </div>
 
-    <div id="main-holder">
+    <div id="main-holder" class="mod-holder">
       <h1 id="login-header">Sign Up!</h1>
-      <form id="login-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+      <form id="login-form" class="mod-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <!---<form id="login-form" onsubmit="checkLogin()"> -->
         <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
         <span class="invalid-feedback"><?php echo $username_err; ?></span>
-        <input type="text" name="phone_number" id="username-field" class="login-form-field" placeholder="Phone">
-        <input type="text" name="address" id="username-field" class="login-form-field" placeholder="Address">
-        <input type="text" name="mail" id="username-field" class="login-form-field" placeholder="Mail ID">
+        <input type="text" name="phone_number" id="number-field" class="login-form-field" placeholder="Phone">
+        <input type="text" name="address" id="address-field" class="login-form-field" placeholder="Address">
+        <input type="text" name="mail" id="email-field" class="login-form-field" placeholder="Mail ID">
         <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"> 
         <span class="invalid-feedback"><?php echo $password_err; ?></span>
-        <input type="password" name="cpassword" id="password-field" class="login-form-field" placeholder="Confirm Password"> 
+        <input type="password" name="cpassword" id="cpassword-field" class="login-form-field" placeholder="Confirm Password"> 
         <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
         <input type="submit" value="Sign Up" id="login-form-submit" >
         <br>
-        <a href = "login.html"> Already have an account? </a>
-       <a href = "signup.html"> Forgot Password? </a>
+        <a href = "login.php"> Already have an account? </a>
+       <a href = "signup.php"> Forgot Password? </a>
       </form>
        
     </div>
-    <?php include_once('~/Components/footer.html');?>
+    <?php include_once('../Components/footer.html');?>
     </body>
 </html>
 
+<style>
+    .mod-form {
+
+    }
+
+    .mod-holder {
+        min-height: 55vh;
+    }
+</style>

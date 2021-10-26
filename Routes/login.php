@@ -41,7 +41,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;                            
-                            header("location: coursespage.html");
+                            header("location: coursespage.php");
                         } else{
                             $login_err = "Invalid username or password.";
                             echo "<script type=\"text/javascript\"> document.getElementById('login-error-msg').style.opacity = 1; </script>";
@@ -97,8 +97,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
         <input type="submit" value="Login" id="login-form-submit" >
       </form>
-       <a href = "signup.html"> Don't have an account? </a>
-       <a href = "signup.html"> Forgot Password? </a>
+       <a href = "signup.php"> Don't have an account? </a>
+       <a href = "signup.php"> Forgot Password? </a>
     </div>
     
     <div class="footer-filler"></div>

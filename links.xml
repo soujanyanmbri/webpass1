@@ -15,11 +15,11 @@
     </link>
     <link>
         <title>Course Page</title>
-        <url>/Routes/coursepage.html</url>
+        <url>/Routes/coursespage.php</url>
     </link>
     <link>
         <title>Login Page</title>
-        <url>/Routes/login.html</url>
+        <url>/Routes/login.php</url>
     </link>
     <link>
         <title>Mentors</title>
@@ -31,7 +31,7 @@
     </link>
     <link>
         <title>Signup Page</title>
-        <url>/Routes/signup.html</url>
+        <url>/Routes/signup.php</url>
     </link>
     <link>
         <title>Terms and Conditions</title>
