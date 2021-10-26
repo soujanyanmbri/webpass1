@@ -5,7 +5,7 @@
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   padding: 10px;
   cursor: pointer;
-  height: calc(min(40vh,40vw)) !important;
+  height: calc(min(45vh,45vw)) !important;
   width: calc(min(40vh,40vw)) !important;
   background-color: salmon;
   margin-left: auto;
@@ -37,6 +37,7 @@
 }
 
 .card-text {
+  font-size: calc(min(1.8vh,1.8vw));
   margin-bottom: 0;
 }
 

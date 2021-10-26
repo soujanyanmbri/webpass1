@@ -11,3 +11,14 @@ footer {
     width: auto;
     object-fit: cover;
 }
+
+body {
+    min-height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}

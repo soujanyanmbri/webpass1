@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="/">
-        <img src="/images/book.jpg" style="width: 40px; height:40px" class="logo">
+        <img src="/images/book.jpg" style="width: 40px; height:40px" class="n-logo logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,6 +46,12 @@
 </nav>
 <div class="bg-dark" id="livesearch"></div>
 
+<style>
+    .n-logo{
+        border-radius: 10px 0 10px 0;
+    }
+</style>
+
 <script>
     console.log("navbar loaded");
     function showResult(str) {
@@ -62,7 +68,7 @@
             }
         }
         console.log(str);
-        xmlhttp.open("GET","livesearch.php?q="+str,true);
+        xmlhttp.open("GET","/livesearch.php?q="+str,true);
         xmlhttp.send();
         console.log("done");
     }

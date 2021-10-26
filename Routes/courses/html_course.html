@@ -20,17 +20,20 @@
     <div id="nav-container"></div>
     <h1 class="border-bottom pb-3 mb-4" style="padding: 20px;">HTML Courses</h1>
 
-    <div class="dropdown show">
-      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Filter according to length
-      </a>
-    
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <a class="dropdown-item" onclick="filterSelection('all')" href="#" >all</a>
-        <a class="dropdown-item" onclick="filterSelection('small')" href="#">Small</a>
-        <a class="dropdown-item" onclick="filterSelection('medium')" href="#">Medium</a>
-        <a class="dropdown-item" onclick="filterSelection('long')" href="#">Long</a>
-    
+    <div class="button-container">
+      <a class="btn btn-primary" href="/Routes/participants.php?q=html_course"> View participants</a>
+      <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filter according to length
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" onclick="filterSelection('all')" href="#" >all</a>
+          <a class="dropdown-item" onclick="filterSelection('small')" href="#">Small</a>
+          <a class="dropdown-item" onclick="filterSelection('medium')" href="#">Medium</a>
+          <a class="dropdown-item" onclick="filterSelection('long')" href="#">Long</a>
+      
+        </div>
       </div>
     </div>
 

@@ -129,7 +129,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       </form>
        
     </div>
-    <?php include_once('../Components/footer.html');?>
+    <?php include_once('~/Components/footer.html');?>
     </body>
 </html>
 
