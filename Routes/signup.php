@@ -106,11 +106,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </script>
     <title>Register</title>
   </head>
-  <body style="background-color: salmon;">
+  <body>
     <div id="nav-container">   </div>
 
     <div id="main-holder" class="mod-holder">
-      <h1 id="login-header">Sign Up!</h1>
+      <h1 id="login-header" style="color:black;">Sign Up!</h1>
       <form id="login-form" class="mod-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <!---<form id="login-form" onsubmit="checkLogin()"> -->
         <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">

@@ -1,16 +1,15 @@
 <?php
   session_start();
-  // $_SESSION["loggedin"] = true;
-  // $_SESSION["username"] = 'kay';
   require_once "../config.php";
   include_once('../Components/nav.html');
 
   $user = $_SESSION['username'];
 
-  // $username = $_SESSION["username"];
-  // if ($username == "") {
-    // header("Location: ../Routes/login.php");
-  // }
+  if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false){
+  {
+    header("location: login.php");
+  }
+}
 
   function get_participant_count($course) {
     $link = $GLOBALS['link'];

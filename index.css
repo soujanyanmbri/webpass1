@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 body{
-  background-image: url('/images/wallpaper.png') !important;
+  background-image: url('/images/wallpaper.png') ;
 }
 
 temp {

@@ -43,14 +43,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             header("location: coursespage.php");
                         } else{
-                            $login_err = "Invalid username or password.";
-                            echo "<script type=\"text/javascript\"> document.getElementById('login-error-msg').style.opacity = 1; </script>";
+                            
+                            header("location: wrongpwd.php");
                         }
                     }
                 } else{
-                    $login_err = "Invalid username or password.";
-                    echo "<script type=\"text/javascript\"> document.getElementById('login-error-msg').style.opacity = 1; </script>";
-
+                    header("location: wrongpwd.php");
+                    echo "<script> document.getElementById('login-error-msg').style.opacity = 1; </script>";
+                    //header("location: login.php");
                 }
             } else{
                 echo "Oops! Something went wrong. Please try again later.";
@@ -88,19 +88,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div id="nav-container">
 
     </div>
-
     <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
     </div>
+  
+    
     <div id="main-holder">
-      <h1 id="login-header">Login</h1>
+      <h1 id="login-header" style="color:black">Login</h1>
       <form id="login-form" onsubmit="checkLogin()" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
         <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
         <input type="submit" value="Login" id="login-form-submit" >
       </form>
-       <a href = "signup.php"> Don't have an account? </a>
-       <a href = "signup.php"> Forgot Password? </a>
+       <a href = "signup.php" style="color:salmon"> Don't have an account? </a>
+       <a href = "signup.php" style="color:salmon"> Forgot Password? </a>
     </div>
     
     <div class="footer-filler"></div>

@@ -23,7 +23,8 @@
   <title>About Us</title>
 </head>
 
-<body style="background-color: pink;">
+<body>
+  <div class="background"></div>
   <div id="nav-container">
 
   </div>
@@ -34,12 +35,14 @@
         alt="">
     </div>
 
-    <div class="content">
-      <h3>Why choose us?</h3>
-      <p>We are committed to make web development accessible to everyone by providing a wide range of courses for free. We have courses suitable for people of all competencies and expertise. 
-      </p>
-      <p>Check out the <a href="coursespage.php">courses we offer</a> and start learning today!
-      </p>
+    <div class="content" style="color: white; ">
+      <div class="inner-content">
+        <h3>Why choose us?</h3>
+        <p>We are committed to make web development accessible to everyone by providing a wide range of courses for free. We have courses suitable for people of all competencies and expertise. 
+        </p>
+        <p>Check out the <a href="coursespage.php">courses we offer</a> and start learning today!
+        </p>
+      </div>
     </div>
   </div>
 
@@ -51,6 +54,19 @@
 
 </html>
 
+<style>
+  .content{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 40px 0 40px;
+    margin-right: 10px;
+  }
+
+  .inner-content{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px 0 50px 0;
+    padding: 10px;
+  }
+</style>
 <script>
   $(document).ready(function(){
     $("#nav-container").load("/Components/nav.html");
