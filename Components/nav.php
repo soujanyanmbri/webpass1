@@ -26,7 +26,9 @@
         </ul>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <?php 
-       // session_start();
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
         if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
         {
             echo'<li class="nav-item">
