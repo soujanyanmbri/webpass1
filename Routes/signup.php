@@ -1,6 +1,6 @@
 <?php
 require_once "../config.php";
-include_once('../Components/nav.html');
+include_once('../Components/nav.php');
 $username = $password = $cpassword = "";
 $username_err = $password_err = $cpassword_err = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){

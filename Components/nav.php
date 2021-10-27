@@ -12,26 +12,33 @@
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="/Routes/about.html">About Us</a>
+            <a class="nav-link " href="/Routes/about.php">About Us</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/Routes/contactus.html">Contact Us</a>
+            <a class="nav-link" href="/Routes/contactus.php">Contact Us</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/Routes/coursespage.php">Courses offered</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/Routes/mentors.html"> Mentors</a>
+            <a class="nav-link" href="/Routes/mentors.php"> Mentors</a>
         </li>
         </ul>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
+        <?php 
+       // session_start();
+        if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true)
+        {
+            echo'<li class="nav-item">
             <img src="/images/logout.png" style="width: 40px; height:40px" class="logo">
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="/Routes/logout.php">Logout  </a>
-        </li>
-        <li class="nav-item">
+            <a class="nav-link " href="/Routes/logout.php">Logout &ensp; </a>
+        </li>';
+        }
+        else
+        {
+            echo '<li class="nav-item">
             <img src="/images/login.png" style="width: 40px; height:40px" class="logo">
         </li>
         <li class="nav-item">
@@ -43,6 +50,13 @@
         <li class="nav-item" style="margin-right:2em;">
             <a class="nav-link" href="/Routes/signup.php">Sign Up!</a>
         </li>
+        ';
+        }
+
+        ?>
+        
+        
+        
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" onkeyup="showResult(this.value)">

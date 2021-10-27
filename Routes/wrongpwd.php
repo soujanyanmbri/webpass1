@@ -26,7 +26,9 @@
       <h1 id="login-header" style="color:black">Username/Password</h1>
        <a href = "signup.php" style="color:salmon"> Don't have an account? </a>
        <a href = "signup.php" style="color:salmon"> Forgot Password? </a>
-    </div>
+       <a href = "login.php" style="color:salmon"> Try Again </a>
+
+      </div>
 
     <div class="footer-filler"></div>
     <div id="footer-container">
@@ -37,7 +39,7 @@
 
 <script>
   $(document).ready(function(){
-    $("#nav-container").load("/Components/nav.html");
+    $("#nav-container").load("/Components/nav.php");
     $("#footer-container").load("/Components/footer.html");
   });
 </script>

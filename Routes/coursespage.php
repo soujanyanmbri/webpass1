@@ -1,7 +1,7 @@
 <?php
   session_start();
   require_once "../config.php";
-  include_once('../Components/nav.html');
+  include_once('../Components/nav.php');
 
   $user = $_SESSION['username'];
 
@@ -261,7 +261,7 @@
 
 <script>
   $(document).ready(function(){
-    $("#nav-container").load("/Components/nav.html");
+    $("#nav-container").load("/Components/nav.php");
     $("#footer-container").load("/Components/footer.html");
   });
 </script>

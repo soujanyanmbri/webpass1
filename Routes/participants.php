@@ -23,7 +23,7 @@
     <title>Courses</title>
   </head>
   <body style="background-color: pink;">
-  <?php include_once('../Components/nav.html'); ?>
+  <?php include_once('../Components/nav.php'); ?>
   <div class="container">
   <?php
   $q=$_GET["q"];

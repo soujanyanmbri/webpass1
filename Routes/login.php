@@ -2,7 +2,7 @@
 <?php
 session_start();
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    exit;
+    header("Location:logout.php");
 }
 require_once "../config.php";
 $username = $password = "";
@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 <script>
   $(document).ready(function(){
-    $("#nav-container").load("/Components/nav.html");
+    $("#nav-container").load("/Components/nav.php");
     $("#footer-container").load("/Components/footer.html");
   });
   

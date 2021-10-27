@@ -60,7 +60,7 @@
 
 <script>
   $(document).ready(function(){
-    $("#nav-container").load("/Components/nav.html");
+    $("#nav-container").load("/Components/nav.php");
     $("#footer-container").load("/Components/footer.html");
   });
 </script>

@@ -11,18 +11,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="/CSS/common.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../../CSS/common.css">
     <script src="../../JS/course.js"> </script>
-    <title>CSS Courses</title>
+    <title>HTML Courses</title>
   </head>
   <body style="background-color: pink;">
     <div id="nav-container"></div>
-    <h1 class="border-bottom pb-3 mb-4" style="padding: 20px;">CSS Courses</h1>
+    <h1 class="border-bottom pb-3 mb-4" style="padding: 20px;">HTML Courses</h1>
 
     <div class="button-container">
-      <a class="btn btn-primary" href="/Routes/participants.php?q=css_course"> View participants</a>
-      <a class="btn btn-primary" href="/Routes/unenroll.php?q=css_course"> Unenroll? </a>
+      <a class="btn btn-primary" href="/Routes/participants.php?q=html_course"> View participants</a>
+      <a class="btn btn-primary" href="/Routes/unenroll.php?q=html_course"> Unenroll? </a>
       <div class="dropdown show">
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Filter according to length
@@ -41,27 +41,27 @@
 
     <div class="container filter small">
       <h1>Short Courses (1-5 hours)</h1>
-      <p style="font-size: 150%;">Take your first step towards mastering CSS!</p>
+      <p style="font-size: 150%;">Take your first step towards mastering HTML!</p>
       <div class="box-container">
         <div class="box boxx">
-          <iframe class="video-frame" src="https://www.youtube.com/embed/ieTHC78giGQ">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/qz0aGYrrlhU">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/ieTHC78giGQ" target="popup"> CSS Full Course</a></h2>
-          <p style="word-wrap: inherit;">Learn CSS in this complete tutorial course. This course will teach you everything you need to know to get started with CSS3, including flexbox and CSS grid.</p>
+          <h2><a href="https://www.youtube.com/embed/qz0aGYrrlhU" target="popup"> HTML Crash Course [2021]</a></h2>
+          <p style="word-wrap: inherit;">HTML Tutorial for Beginners - Learn HTML for a career in web development. This HTML tutorial teaches you everything you need to get started.</p>
         </div>
 
         <div class="box boxx">
-          <iframe class="video-frame" src="https://www.youtube.com/embed/yfoY53QXEnI">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/3RXlQPkJzCM">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/yfoY53QXEnI" target="popup"> CSS Crash Course For Absolute Beginners</a></h2>
-          <p style="word-wrap: inherit;"> In this video we will be looking at styles, selectors, declarations, etc. We will build a CSS cheat sheet that you can keep as a resource and we will also create a basic website layout.</p>
+          <h2><a href="https://www.youtube.com/embed/3RXlQPkJzCM" target="popup"> The Ultimate HTML Tutorial Course for Complete Beginners</a></h2>
+          <p style="word-wrap: inherit;"> An intro to HTML with text, image, video, and layout tags jam-packed into one knowledge-filled course!</p>
         </div>
 
         <div class="box boxx">
-          <iframe class="video-frame" src="https://www.youtube.com/embed/KN6oBEOz2ZI">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/pQN-pnXPaVg">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/KN6oBEOz2ZI" target="popup"> CSS Crash Course </a></h2>
-          <p style="word-wrap: inherit;"> Join the 3-part epic masterclass that shows you how to become a 6-figure developer.</p>
+          <h2><a href="https://www.youtube.com/embed/pQN-pnXPaVg" target="popup"> Build a Website Tutorial </a></h2>
+          <p style="word-wrap: inherit;"> Learn the basics of HTML5 and web development in this awesome course for beginners. </p>
         
         </div>
       </div>
@@ -71,24 +71,24 @@
       <p style="font-size: 150%;">Transition from beginner to master in a day!</p>
       <div class="box-container">
         <div class="box boxx">
-          <iframe class="video-frame" src="https://www.youtube.com/embed/1Rs2ND1ryYc">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/uhza_QbzR7o">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/1Rs2ND1ryYc" target="popup"> CSS Tutorial - Zero to Hero</a></h2>
-          <p style="word-wrap: inherit;">In this course, we cover CSS from the ground up. You will learn everything from basic skills, such as coloring and text, to highly advanced skills, like custom animations.</p>
+          <h2><a href="https://www.youtube.com/embed/uhza_QbzR7o" target="popup">  HTML & CSS Tutorial | Great Learning</a></h2>
+          <p style="word-wrap: inherit;">Watch this 10-hour tutorial on HTML and CSS! We will start right from scratch, firstly by understanding how HTML can be used to define the structure and content of web pages.</p>
         </div>
 
         <div class="box boxx">
-          <iframe class="video-frame" src="https://www.youtube.com/embed/WyxzAU3p8CE">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/Q33KBiDriJY">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/WyxzAU3p8CE" target="popup"> Complete CSS Course For Beginners to Advanced</a></h2>
-          <p style="word-wrap: inherit;">In this tutorial, you will learn what is CSS and application of CSS. </p>
+          <h2><a href="https://www.youtube.com/embed/Q33KBiDriJYs" target="popup"> Web Development Full Course</a></h2>
+          <p style="word-wrap: inherit;">This Edureka Web Development Full Course video will help you understand and learn Web Development in detail. Ideal for both beginners as well as professionals </p>
         </div>
 
         <div class="box boxx">
-          <iframe class="video-frame" src="https://www.youtube.com/embed/Edsxf_NBFrw">
+          <iframe class="video-frame" src="https://www.youtube.com/embed/aoQ6S1a32j8">
           </iframe>
-          <h2><a href="https://www.youtube.com/embed/Edsxf_NBFrw" target="popup"> CSS Tutorial In Hindi</a></h2>
-          <p style="word-wrap: inherit;">In this CSS3 tutorial in Hindi we will learn everything you need to learn about CSS from scratch.</p>
+          <h2><a href="https://www.youtube.com/embed/aoQ6S1a32j8" target="popup"> Make a Landing Page using HTML, SCSS, and JavaScript</a></h2>
+          <p style="word-wrap: inherit;">Learn how to build a responsive website from scratch with HTML, CSS, and JavaScript.</p>
         </div>
       </div>
     </div>    
@@ -118,26 +118,25 @@
         </div>
       </div>
     </div>    
-
     <div class="ref">
       <h1>Useful Resources</h1>
   
       <ul>
-        <li><a href="https://www.w3schools.com/css/">w3schools CSS Tutorial</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps">Mozilla Developer Network(MDN) Web
-            Docs</a></li>
-        <li><a href="https://www.tutorialspoint.com/css/index.htm">CSS Tutorial</a></li>
+        <li><a href="https://www.w3schools.com/html/">w3schools HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">Structuring the web with HTML</a></li>
+        <li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
+        <li><a href="https://www.dcpehvpm.org/E-Content/BCA/BCA-II/Web%20Technology/the-complete-reference-html-css-fifth-edition.pdf">HTML & CSS: The Complete Reference</a></li>
       </ul>
     </div>
 
     <div class="footer-filler"></div>
     <div id="footer-container"></div>
-  </body>
+    </body>
 </html>
 
 <script>
   $(document).ready(function(){
-    $("#nav-container").load("/Components/nav.html");
+    $("#nav-container").load("/Components/nav.php");
     $("#footer-container").load("/Components/footer.html");
   });
 </script>
