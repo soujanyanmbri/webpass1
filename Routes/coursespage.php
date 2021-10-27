@@ -53,7 +53,7 @@
           $result = mysqli_query($link, $sql);
           $row = mysqli_fetch_array($result);
           if($row[0] == 1) {
-            echo '<a href="courses/java.html" class="btn btn-primary t-btn">Go to course</a>';
+            echo '<a href="courses/java.php" class="btn btn-primary t-btn">Go to course</a>';
           }
           else {
             echo '<form method="POST">';
@@ -64,7 +64,7 @@
               $sql = "UPDATE `user_courses` SET `java_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
               if(mysqli_affected_rows($link) > 0) {
-                echo '<a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>';
+                echo '<a href="courses/ajax.php" class="btn btn-primary t-btn">Go to course</a>';
               }            
             }
           }
@@ -83,7 +83,7 @@
           $result = mysqli_query($link, $sql);
           $row = mysqli_fetch_array($result);
           if($row[0] == 1) {
-            echo '<a href="courses/python.html" class="btn btn-primary t-btn">Go to course</a>';
+            echo '<a href="courses/python.php" class="btn btn-primary t-btn">Go to course</a>';
           }
           else {
             echo '<form method="POST">';
@@ -94,7 +94,7 @@
               $sql = "UPDATE `user_courses` SET `python_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
               if(mysqli_affected_rows($link) > 0) {
-                echo '<a href="courses/python.html" class="btn btn-primary t-btn">Go to course</a>';
+                echo '<a href="courses/python.php" class="btn btn-primary t-btn">Go to course</a>';
               }            
             }
           }
@@ -113,7 +113,7 @@
           $result = mysqli_query($link, $sql);
           $row = mysqli_fetch_array($result);
           if($row[0] == 1) {
-            echo '<a href="courses/javascript.html" class="btn btn-primary t-btn">Go to course</a>';
+            echo '<a href="courses/javascript.php" class="btn btn-primary t-btn">Go to course</a>';
           }
           else {
             echo '<form method="POST">';
@@ -124,7 +124,7 @@
               $sql = "UPDATE `user_courses` SET `javascript_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
               if(mysqli_affected_rows($link) > 0) {
-                echo '<a href="courses/javascript.html" class="btn btn-primary t-btn">Go to course</a>';
+                echo '<a href="courses/javascript.php" class="btn btn-primary t-btn">Go to course</a>';
               }            
             }
           }
@@ -144,7 +144,7 @@
             $result = mysqli_query($link, $sql);
             $row = mysqli_fetch_array($result);
             if($row[0] == 1) {
-              echo '<a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>';
+              echo '<a href="courses/ajax.php" class="btn btn-primary t-btn">Go to course</a>';
             }
             else {
               echo '<form method="POST">';
@@ -155,7 +155,7 @@
                 $sql = "UPDATE `user_courses` SET `ajax_course`=1 WHERE `username`='$user'";       
                 $result = mysqli_query($link, $sql);
                 if(mysqli_affected_rows($link) > 0) {
-                  echo '<a href="courses/ajax.html" class="btn btn-primary t-btn">Go to course</a>';
+                  echo '<a href="courses/ajax.php" class="btn btn-primary t-btn">Go to course</a>';
                 }            
               }
             }
@@ -174,7 +174,7 @@
           $result = mysqli_query($link, $sql);
           $row = mysqli_fetch_array($result);
           if($row[0] == 1) {
-            echo '<a href="courses/html_course.html" class="btn btn-primary t-btn">Go to course</a>';
+            echo '<a href="courses/html_course.php" class="btn btn-primary t-btn">Go to course</a>';
           }
           else {
             echo '<form method="POST">';
@@ -185,7 +185,7 @@
               $sql = "UPDATE `user_courses` SET `html_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
               if(mysqli_affected_rows($link) > 0) {
-                echo '<a href="courses/html_course.html" class="btn btn-primary t-btn">Go to course</a>';
+                echo '<a href="courses/html_course.php" class="btn btn-primary t-btn">Go to course</a>';
               }            
             }
           }
@@ -204,7 +204,7 @@
           $result = mysqli_query($link, $sql);
           $row = mysqli_fetch_array($result);
           if($row[0] == 1) {
-            echo '<a href="courses/css.html" class="btn btn-primary t-btn">Go to course</a>';
+            echo '<a href="courses/css.php" class="btn btn-primary t-btn">Go to course</a>';
           }
           else {
             echo '<form method="POST">';
@@ -215,7 +215,7 @@
               $sql = "UPDATE `user_courses` SET `css_course`=1 WHERE `username`='$user'";       
               $result = mysqli_query($link, $sql);
               if(mysqli_affected_rows($link) > 0) {
-                echo '<a href="courses/css.html" class="btn btn-primary t-btn">Go to course</a>';
+                echo '<a href="courses/css.php" class="btn btn-primary t-btn">Go to course</a>';
               }            
             }
           }
