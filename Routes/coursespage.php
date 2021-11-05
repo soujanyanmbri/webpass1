@@ -3,12 +3,7 @@
   require_once "../config.php";
   include_once('../Components/nav.php');
 
-  if(isset($_SESSION['user'])){
-    $user = $_SESSION['user'];
-  }
-  else{
-    header("Location: ../index.php");
-  }
+
 
   $user = $_SESSION['username'];
 
