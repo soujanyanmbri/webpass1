@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../CSS/login.css">
     <link rel="stylesheet" href="../CSS/contact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -19,22 +20,17 @@
   <body style="background-color: pink;">
     <div id="nav-container">
     </div>
-    
-    <h1 class="border-bottom pb-3 mb-4">Contact Us</h1>
-    <div class="contact">
-      <div class="row">
-        <form action="#">
-          <input type="text" placeholder="Full Name" class="box">
-          <input type="email" placeholder="Your email" class="box">
-          <input type="password" placeholder="Your password" class="box">
-          <input type="tel" placeholder="Your number" class="box">
-          <textarea name="address" placeholder="Your address" cols="30" rows="10" class="box address"></textarea>
-  
-          <input type="submit" class="btn btn-primary button" value="Send now">
-        </form>
-      </div>
-      
+    <div id="main-holder">
+      <h1 id="login-header" style="color:black">Contact Us</h1>
+      <form id="login-form" method="post">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Full Name">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Your email">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Phone Number">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Query">
+        <input type="submit" value="Send" id="login-form-submit" >
+      </form>
     </div>
+
 
     <div class="footer-filler"></div>
     <div id="footer-container">
