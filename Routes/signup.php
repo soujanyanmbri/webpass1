@@ -24,22 +24,29 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 else
                     $username = trim($_POST["username"]);
               } else
-                echo "Something wrong in selecting";
+              echo '<script>alert("Something is wrong")</script>';
             mysqli_stmt_close($stmt);
         }
     }
     if(empty(trim($_POST["password"])))
         $password_err = "Please enter a password.";     
     elseif(strlen(trim($_POST["password"])) < 6)
-        $password_err = "Password must have atleast 6 characters.";
+        alert("Passwords should be atleast 6 characters long");   
     else
         $password = trim($_POST["password"]);
     if(empty(trim($_POST["cpassword"])))
-        $cpassword_err = "Please confirm password.";     
+    {
+        header("location: signup.php");
+        echo '<script>alert("Please confirm password.")</script>';   
+    }
+        
     else{
         $cpassword = trim($_POST["cpassword"]);
         if(empty($password_err) && ($password != $cpassword))
-            $cpassword_err = "Password did not match.";
+        {
+            header("location: signup.php");
+            echo '<script>alert("Passwords did not match.")</script>';   
+        }
     }
     if(empty($username_err) && empty($password_err) && empty($cpassword_err)){
         $sql = "INSERT INTO users (username, password, phone_number, address, mail) VALUES (?, ?,?,?,?)";
@@ -51,7 +58,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             {
               $query = "INSERT INTO user_courses (username, ajax_course, css_course, html_course, java_course, javascript_course, python_course) VALUES ('$param_username',0,0,0,0,0,0)";
               if(mysqli_query($link,$query))
-                echo "works!";
+                header("location: login.php");
               else 
                 echo mysqli_error($link);
             }
@@ -103,6 +110,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           });
       }, false);
   })();
+  var check = function() {
+    if (document.getElementById('password-field').value ==
+        document.getElementById('cpassword-field').value) {
+        document.getElementById('message').style.color = 'green';
+        document.getElementById('message').innerHTML = 'matching';
+    } else {
+        document.getElementById('message').style.color = 'red';
+        document.getElementById('message').innerHTML = 'not matching';
+    }
+    }
   </script>
     <title>Register</title>
   </head>
@@ -113,14 +130,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       <h1 id="login-header" style="color:black;">Sign Up!</h1>
       <form id="login-form" class="mod-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <!---<form id="login-form" onsubmit="checkLogin()"> -->
-        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required>
         <span class="invalid-feedback"><?php echo $username_err; ?></span>
-        <input type="text" name="phone_number" id="number-field" class="login-form-field" placeholder="Phone">
-        <input type="text" name="address" id="address-field" class="login-form-field" placeholder="Address">
-        <input type="text" name="mail" id="email-field" class="login-form-field" placeholder="Mail ID">
-        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"> 
+        <input type="text" name="phone_number" id="number-field" class="login-form-field" placeholder="Phone" required>
+        <input type="tel" name="address" id="address-field" class="login-form-field" placeholder="Address" required>
+        <input type="email" name="mail" id="email-field" class="login-form-field" placeholder="Mail ID" required>
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required onkeyup='check();'> 
         <span class="invalid-feedback"><?php echo $password_err; ?></span>
-        <input type="password" name="cpassword" id="cpassword-field" class="login-form-field" placeholder="Confirm Password"> 
+        <input type="password" name="cpassword" id="cpassword-field" class="login-form-field" onkeyup='check();' placeholder="Confirm Password" required> 
+        <span id='message'></span>
         <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
         <input type="submit" value="Sign Up" id="login-form-submit" >
         <br>

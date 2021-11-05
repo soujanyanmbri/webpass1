@@ -27,7 +27,7 @@
           <p> </p>
           <p class="card-text">Developer and Mentor</p>
           <p> </p>
-          <a href="contactus.html" class="btn btn-primary">Contact Us</a>
+          <a href="contactus.php" class="btn btn-primary">Contact Us</a>
           
         </div>
       </div>
@@ -38,7 +38,7 @@
           <p> </p>
           <p class="card-text">Developer and Mentor</p>
           <p> </p>
-          <a href="contactus.html" class="btn btn-primary">Contact Us</a>
+          <a href="contactus.php" class="btn btn-primary">Contact Us</a>
         </div>
       </div>
       <div class="card border border-dark rounded">
@@ -48,7 +48,7 @@
           <p> </p>
           <p class="card-text">Developer and Mentor</p>
           <p> </p>
-          <a href="contactus.html" class="btn btn-primary">Contact Us</a>
+          <a href="contactus.php" class="btn btn-primary">Contact Us</a>
         </div>
       </div>
       
