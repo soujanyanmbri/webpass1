@@ -2,16 +2,16 @@
 <links>
     <link>
         <title>Home Page</title>
-        <url>/index.html</url>
+        <url>/index.php</url>
         <content>Content</content>
     </link>
     <link>
         <title>About Us</title>
-        <url>/Routes/about.html</url>
+        <url>/Routes/about.php</url>
     </link>
     <link>
         <title>Contact Us</title>
-        <url>/Routes/contact.html</url>
+        <url>/Routes/contactus.php</url>
     </link>
     <link>
         <title>Course Page</title>
@@ -23,11 +23,11 @@
     </link>
     <link>
         <title>Mentors</title>
-        <url>/Routes/mentors.html</url>
+        <url>/Routes/mentors.php</url>
     </link>
     <link>
         <title>Privacy Policy</title>
-        <url>/Routes/privacy.html</url>
+        <url>/Routes/privacypolicy.html</url>
     </link>
     <link>
         <title>Signup Page</title>
@@ -39,26 +39,26 @@
     </link>
     <link>
         <title>AJAX</title>
-        <url>/Routes/courses/ajax.html</url>
+        <url>/Routes/courses/ajax.php</url>
     </link>
     <link>
         <title>CSS</title>
-        <url>/Routes/courses/css.html</url>
+        <url>/Routes/courses/css.php</url>
     </link>
     <link>
         <title>HTML</title>
-        <url>/Routes/courses/html_course.html</url>
+        <url>/Routes/courses/html_course.php</url>
     </link>
     <link>
         <title>JavaScript</title>
-        <url>/Routes/courses/javascript.html</url>
+        <url>/Routes/courses/javascript.php</url>
     </link>
     <link>
         <title>Java</title>
-        <url>/Routes/courses/java.html</url>
+        <url>/Routes/courses/java.php</url>
     </link>
     <link>
         <title>Python</title>
-        <url>/Routes/courses/python.html</url>
+        <url>/Routes/courses/python.php</url>
     </link>
 </links>
