@@ -135,7 +135,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <input type="text" name="phone_number" id="number-field" class="login-form-field" placeholder="Phone" required>
         <input type="tel" name="address" id="address-field" class="login-form-field" placeholder="Address" required>
         <input type="email" name="mail" id="email-field" class="login-form-field" placeholder="Mail ID" required>
-        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required onkeyup='check();'> 
+        <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="password-field" class="login-form-field" placeholder="Password" required onkeyup='check();'> 
         <span class="invalid-feedback"><?php echo $password_err; ?></span>
         <input type="password" name="cpassword" id="cpassword-field" class="login-form-field" onkeyup='check();' placeholder="Confirm Password" required> 
         <span id='message'></span>

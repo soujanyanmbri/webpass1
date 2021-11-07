@@ -2,9 +2,6 @@
   session_start();
   require_once "../config.php";
   include_once('../Components/nav.php');
-
-
-
   $user = $_SESSION['username'];
 
   if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false){
