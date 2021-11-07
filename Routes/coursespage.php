@@ -2,13 +2,14 @@
   session_start();
   require_once "../config.php";
   include_once('../Components/nav.php');
-  $user = $_SESSION['username'];
-
+  
   if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false){
-  {
+    header("location: login.php");
+  } 
+  if(!isset($_SESSION['username'])){
     header("location: login.php");
   }
-}
+  $user = $_SESSION['username'];
 
   function get_participant_count($course) {
     $link = $GLOBALS['link'];
