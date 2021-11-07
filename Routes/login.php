@@ -7,6 +7,10 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 require_once "../config.php";
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
+if(isset($_SESSION['errorMessage'])) {
+    echo "<script>alert('You have successfully unenrolled from all courses.Please Register again to Access courses');</script>";
+    unset($_SESSION['errorMessage']);
+}
  
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty(trim($_POST["username"])))
