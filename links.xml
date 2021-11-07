@@ -3,62 +3,791 @@
     <link>
         <title>Home Page</title>
         <url>/index.php</url>
-        <content>Content</content>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+
+Welcome to WebCoursera!
+Ready to take your first step towards becoming a web developer? Or are you mid-career professional seeking to add a new skill to your repertoire? You've come to the right place! No matter your expertise, you'll find something here. From introductory courses to intense hands-on sessions, we have it all!
+
+So sign up and start coding!
+
+Login Here if you have an account
+
+Check out our Courses here!
+
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us</content>
     </link>
     <link>
         <title>About Us</title>
-        <url>/Routes/about.php</url>
+        <url>/Routes/about.php</url>    
+        <content>Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+
+Why choose us?
+We are committed to make web development accessible to everyone by providing a wide range of courses for free. We have courses suitable for people of all competencies and expertise.
+
+Check out the courses we offer and start learning today!
+
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us</content>
     </link>
     <link>
         <title>Contact Us</title>
         <url>/Routes/contactus.php</url>
+        <content>Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+Contact Us
+Full Name
+Your email
+Phone Number
+Query
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us</content>
     </link>
     <link>
         <title>Course Page</title>
         <url>/Routes/coursespage.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+Card image
+JAVA - 3 Registered
+Programming Language
+
+Card image
+PYTHON - 2 Registered
+Programming Language.
+
+Card image
+JAVASCRIPT - 2 Registered
+Scripting Language.
+
+Card image
+AJAX - 3 Registered
+Set of web development techniques.
+
+Card image
+HTML - 2 Registered
+Hypertext Markup Language.
+
+Card image
+CSS - 2 Registered
+Cascading Style Sheets
+
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Login Page</title>
         <url>/Routes/login.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+Invalid username
+and/or password
+
+Login
+Username
+Password
+Don't have an account?
+Forgot Password?
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Mentors</title>
         <url>/Routes/mentors.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+Card image
+Ajay P Sakthikumar
+Developer and Mentor
+
+Card image
+Sreelakshmi
+Developer and Mentor
+
+Card image
+Soujanya
+Developer and Mentor
+
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Privacy Policy</title>
         <url>/Routes/privacypolicy.html</url>
+        <content>
+        
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+Privacy Policy
+This privacy policy will help you understand how we uses and protects the data you provide to us when you visit and use this website.
+
+We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
+
+What User Data We Collect
+When you visit the website, we may collect the following data:
+
+Your IP address.
+Your contact information and email address.
+Other information such as interests and preferences.
+Data profile regarding your online behavior on our website.
+Why We Collect Your Data
+We are collecting your data for several reasons:
+
+To better understand your needs.
+To improve our services and products.
+To send you promotional emails containing the information we think you will find interesting.
+Safeguarding and Securing the Data
+We are committed to securing your data and keeping it confidential. [name] has done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online.
+
+Our Cookie Policy
+Once you agree to allow our website to use cookies, you also agree to use the data it collects regarding your online behavior (analyze web traffic, web pages you spend the most time on, and websites you visit).
+
+The data we collect by using cookies is used to customize our website to your needs. After we use the data for statistical analysis, the data is completely removed from our systems.
+
+Links to Other Websites
+Our website contains links that lead to other websites. If you click on these links [name] is not held responsible for your data and privacy protection. Visiting those websites is not governed by this privacy policy agreement. Make sure to read the privacy policy documentation of the website you go to from our website.
+
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Signup Page</title>
         <url>/Routes/signup.php</url>
+        <content>
+        
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+Sign Up!
+Username
+Phone
+Address
+Mail ID
+Password
+Confirm Password
+
+Already have an account?
+Forgot Password?
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Terms and Conditions</title>
         <url>/Routes/terms.html</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Login
+
+Sign Up!
+Search
+Terms and Conditions
+Agreement to Terms
+You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are expressly prohibited from using the Site and you must discontinue use immediately.
+
+User Registration
+You may be required to register with the Site. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable.
+
+Third-Party Websites and Content
+The Site may contain (or you may be sent via the Site) links to other websites ("Third-Party Websites") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ("Third-Party Content").
+
+Such Third-Party Websites and Third-Party Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Site or any Third-Party Content posted on, available through, or installed from the Site, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the Third-Party Websites or the Third-Party Content.
+
+DISCLAIMER
+THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE.
+
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>AJAX</title>
         <url>/Routes/courses/ajax.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+Ajax Courses
+Short Courses (1-5 hours)
+Take your first step towards mastering Ajax!
+
+
+AJAX Crash Course (Vanilla JavaScript)
+In this video we will dive into AJAX with Vanilla JS and NO JQUERY. We will examine the XHR object and how it works. This is a beginner friendly tutorial for anyone that has very basic JavaScript knowledge.
+
+
+Ajax Tutorial
+In this javascript ajax tutorial in hindi, you will learn everything you need to know about ajax and asynchronous programming in javascript.
+
+
+Learn Ajax in 15 mins with examples
+In this video I will explain you what is Ajax, Types of Ajax, Ajax Disadvantages and Ajax Examples.
+
+Medium Courses (5-10 hours)
+Transition from beginner to master in a day!
+
+
+AJAX Tutorial for Beginners and Professionals
+This UI Development video contains full of UI Related Projects and RealTime Approach. You can most of the knowledge in UI Technologies with Hands on experience.
+
+
+AJAX : Let's build a COOL project
+This AJAX for beginner's tutorial course will teach you what AJAX is and how to start using it with PHP to create excellent web applications.
+
+
+Php mysql Development with Ajax
+This course is dedicated to teach students how to build applications using php, mysql ajax  modern JavaScript Es6 fetch api methods, without using any JavaScript library like jquery etc.
+
+Long Courses (>10 hours)
+Become a Professional!
+
+
+Complete JSON AJAX API Code Course
+Prefect course for beginners to learn AJAX and JSON!!! Step by step learning with all steps included.
+
+
+Object Oriented PHP  Ajax
+in this course, we will learn everything about AJAX and Object-Oriented Programming, once we learn the basics of AJAX and Object-Oriented Programing afterward we will create a project using AJAX and Object-Oriented Programming.
+
+
+Advanced PHP Ajax Registration  Login Form
+In this course you will learn how to submit the signup  login form using ajax technique with cool jQuery validations.
+
+Useful Resources
+w3schools AJAX Introduction
+What AJAX Is and How to Use it
+Mozilla Developer Network(MDN) Web Docs
+AJAX: A Beginner's Guide
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>CSS</title>
         <url>/Routes/courses/css.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+CSS Courses
+Short Courses (1-5 hours)
+Take your first step towards mastering CSS!
+
+
+CSS Full Course
+Learn CSS in this complete tutorial course. This course will teach you everything you need to know to get started with CSS3, including flexbox and CSS grid.
+
+
+CSS Crash Course For Absolute Beginners
+In this video we will be looking at styles, selectors, declarations, etc. We will build a CSS cheat sheet that you can keep as a resource and we will also create a basic website layout.
+
+
+CSS Crash Course
+Join the 3-part epic masterclass that shows you how to become a 6-figure developer.
+
+Medium Courses (5-10 hours)
+Transition from beginner to master in a day!
+
+
+CSS Tutorial - Zero to Hero
+In this course, we cover CSS from the ground up. You will learn everything from basic skills, such as coloring and text, to highly advanced skills, like custom animations.
+
+
+Complete CSS Course For Beginners to Advanced
+In this tutorial, you will learn what is CSS and application of CSS.
+
+
+CSS Tutorial In Hindi
+In this CSS3 tutorial in Hindi we will learn everything you need to learn about CSS from scratch.
+
+Long Courses (>10 hours)
+Become a Professional!
+
+
+Learn HTML5 and CSS3 From Scratch
+In this course we will cover both languages from the scratch and by the end of the course you will be creating your own projects.
+
+
+30 Days to learn HTML  CSS
+Even if your goal is not to become a web designer, learning HTML and CSS can be an amazing tool to have in your skill-set -- both in the workplace, and at home. If this has been on your to-do list for some time, why don't you take thirty days and join me?
+
+
+Complete Web Development Course
+Everything you need to become a professional web developer is included in this free screen capture HD video tutorial course! Begin with the basics and Learn some of or more Advanced Projects Right away!
+
+Useful Resources
+w3schools CSS Tutorial
+Mozilla Developer Network(MDN) Web Docs
+CSS Tutorial
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>HTML</title>
         <url>/Routes/courses/html_course.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+HTML Courses
+Short Courses (1-5 hours)
+Take your first step towards mastering HTML!
+
+
+HTML Crash Course [2021]
+HTML Tutorial for Beginners - Learn HTML for a career in web development. This HTML tutorial teaches you everything you need to get started.
+
+
+The Ultimate HTML Tutorial Course for Complete Beginners
+An intro to HTML with text, image, video, and layout tags jam-packed into one knowledge-filled course!
+
+
+Build a Website Tutorial
+Learn the basics of HTML5 and web development in this awesome course for beginners.
+
+Medium Courses (5-10 hours)
+Transition from beginner to master in a day!
+
+
+HTML  CSS Tutorial | Great Learning
+Watch this 10-hour tutorial on HTML and CSS! We will start right from scratch, firstly by understanding how HTML can be used to define the structure and content of web pages.
+
+
+Web Development Full Course
+This Edureka Web Development Full Course video will help you understand and learn Web Development in detail. Ideal for both beginners as well as professionals
+
+
+Make a Landing Page using HTML, SCSS, and JavaScript
+Learn how to build a responsive website from scratch with HTML, CSS, and JavaScript.
+
+Long Courses (>10 hours)
+Become a Professional!
+
+
+Learn HTML5 and CSS3 From Scratch
+In this course we will cover both languages from the scratch and by the end of the course you will be creating your own projects.
+
+
+30 Days to learn HTML  CSS
+Even if your goal is not to become a web designer, learning HTML and CSS can be an amazing tool to have in your skill-set -- both in the workplace, and at home. If this has been on your to-do list for some time, why don't you take thirty days and join me?
+
+
+Complete Web Development Course
+Everything you need to become a professional web developer is included in this free screen capture HD video tutorial course! Begin with the basics and Learn some of or more Advanced Projects Right away!
+
+Useful Resources
+w3schools HTML Tutorial
+Structuring the web with HTML
+The Modern JavaScript Tutorial
+HTML  CSS: The Complete Reference
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>JavaScript</title>
         <url>/Routes/courses/javascript.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+Short Courses (1-5 hours)
+Take your first step towards mastering JavaScript!
+
+
+Learn JavaScript
+This complete 134-part JavaScript tutorial for beginners will teach you everything you need to know to get started with the JavaScript programming language.
+
+
+Javascript Full Course for Beginners to Advanced
+Upon completion of this course you will a solid foundation enabling to start to building backend applications using NodeJS and frontend applications using React of Vue.
+
+
+JavaScript Training | Edureka
+This Edureka video on "JavaScript full course" is a complete guide to JavaScript which covers in-depth knowledge about data types, variables, functions, event handling, form validation, etc using JavaScript.
+
+Medium Courses (5-10 hours)
+Transition from beginner to master in a day!
+
+
+JavaScript Tutorial for Beginners
+Take your web development skills to the next level with this Clever Programmer Learn Javascript course for beginners.
+
+
+JavaScript Programming - Full Course
+Learn JavaScript from scratch by solving over a hundred different coding challenges.
+
+
+Build 15 JavaScript Projects
+Sharpen your JavaScript skills by building 15 projects using plain JavaScript without frameworks.
+
+Long Courses (>10 hours)
+Become a Professional!
+
+
+Learn JavaScript | Great Learning
+In this tutorial, we have covered all the topics that will give you a headstart to work in this field, such as, What is JavaScript, Where to write, Loops in JavaScript, and much more.
+
+
+Complete Web Development Course
+Everything you need to become a professional web developer is included in this free screen capture HD video tutorial course! Begin with the basics and Learn some of or more Advanced Projects Right away!
+
+
+Complete JavaScript Tutorial
+We will cover Basic to Advanced Javascript, Modern JavaScript, OOPS in JavaScript.
+
+Useful Resources
+w3schools JavaScript Tutorial
+Mozilla Developer Network(MDN) Web Docs
+The Modern JavaScript Tutorial
+Eloquent JavaScript
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Java</title>
         <url>/Routes/courses/java.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+Java Courses
+Short Courses (1-5 hours)
+Take your first step towards mastering Java!
+
+
+Java Tutorial for Beginners [2020]
+Learn Java, the language behind millions of apps and websites.
+
+
+Intro to Java Programming
+Learn how to program in Java in this full tutorial course. This is a complete Java course meant for absolute beginners. No prior programming experience is required.
+
+
+Java Tutorial - For Beginners
+This java tutorial for beginners will teach you the java programming language. It will start by going over fundamentals java programming concepts and slowly transition into more advanced topics
+
+Medium Courses (5-10 hours)
+Transition from beginner to master in a day!
+
+
+Java Tutorial for Beginners | Full Course
+Learn Java, the language behind millions of apps and websites, with tons of hands-on experience!
+
+
+Java Online Training | Edureka
+This Edureka Java Full Course will help you in understanding the various fundamentals of Java in detail with examples.
+
+
+Learn Java 8 - Full Tutorial for Beginners
+Learn Java 8 and object oriented programming with this complete Java course for beginners.
+
+Long Courses (>10 hours)
+Become a Java Professional!
+
+
+Learn Java Programming | Simplilearn
+Java Programming for Beginners will help you with the complete fundamentals of Java Programming along with real-time practical examples for a better learning experience.
+
+
+Java Full Course
+Learn the core Java skills needed to apply for Java developer positions in just 12 hours.
+
+
+Core Java Tutorial
+Learn Core Java with lots of hands-on practice in 15 hours.
+
+Useful Resources
+w3schools Java Tutorial
+Java Documentation
+Thinking in Java
+The Complete Reference: Java
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
     <link>
         <title>Python</title>
         <url>/Routes/courses/python.php</url>
+        <content>
+Home(current)
+About Us
+Contact Us
+Courses offered
+Mentors
+
+Logout  
+Search
+Python Courses
+Short Courses (1-5 hours)
+Take your first step towards mastering Python!
+
+
+Learn Python - Full Course for Beginners
+This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python programmer in no time!
+
+
+Python Programming - Full Course for Beginners to Experts
+This Python Programming course covers everything you need to about Python programming. You will Learn about python programming from the very basics to the advanced level.
+
+
+Python Tutorial for Beginners
+In this complete Python course you will learn everything you need to get started with Python. By the end of this course, you will have a good understanding of the concepts and hands-on experience with several demo projects you can follow along.
+
+Medium Courses (5-10 hours)
+Transition from beginner to master in a day!
+
+
+Python for Beginners [Full Course]
+Python tutorial - Python for beginners - Go from Zero to Hero with Python (includes machine learning  web development project).
+
+
+Intermediate Python Programming Course
+Take your Python skills to the next level with this intermediate Python course.
+
+
+Complete Python Course - Beginner to Advanced
+This complete Python programming course will give you clear explanation of each Python programming.
+
+Long Courses (>10 hours)
+Become a Professional!
+
+
+Python Tutorial For Beginners | Edureka
+This Edureka video on Python Full Course will help you learn the Python programming language and its core concepts with examples from scratch.
+
+
+Python for Everybody - Full University Python Course
+This Python 3 tutorial course aims to teach everyone the basics of programming computers using Python.
+
+
+Python Full Course
+This Python Programming course covers everything you need to about Python programming. You will Learn about python programming from the very basics to the advanced level.
+
+Useful Resources
+Python Documentation
+Python Basics: A Practical Introduction to Python 3
+Python for Everybody
+Getting Started with Python
+Contact us
++007 9089 6767
+abc@gmail.com
+Terms and Conditions
+Privacy Policy
+Help
+Support
+About Us
+Subscribe to the content!
+Enter email address
+ </content>
     </link>
 </links>
